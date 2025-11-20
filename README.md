@@ -25,6 +25,7 @@ I build systems that bridge software and hardware, from full-stack applications 
 <td width="50%">
 
 ### 💰 SmartSpend
+
 Full-stack expense tracking application with advanced features including CSV import, receipt OCR scanning, and ML-powered automatic categorization.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -40,6 +41,7 @@ Full-stack expense tracking application with advanced features including CSV imp
 <td width="50%">
 
 ### ⚡ GoQuorra
+
 Lightweight, distributed job queue system for Go featuring reliability guarantees, comprehensive observability, and Prometheus metrics integration.
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
@@ -56,6 +58,7 @@ Lightweight, distributed job queue system for Go featuring reliability guarantee
 <td width="50%">
 
 ### 🔬 Knot Labs
+
 Modular social media sandbox platform with sophisticated media classification, face recognition capabilities, and full-text search functionality.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -68,6 +71,7 @@ Modular social media sandbox platform with sophisticated media classification, f
 <td width="50%">
 
 ### 🏎️ InertiaX
+
 High-fidelity 2D car physics simulator combining advanced physics modeling with real-time graphics visualization using OpenGL.
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
@@ -79,9 +83,23 @@ High-fidelity 2D car physics simulator combining advanced physics modeling with 
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td width="50%">
+
+### ⏱️ Clockwise
+
+Cross-platform desktop app for precise time logging and productivity analytics. Self-hosted, privacy-first alternative to Clockify with project management and detailed analytics.
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyQt6](https://img.shields.io/badge/PyQt6-6.4+-41CD52?style=flat-square&logo=qt&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+[View Repository →](https://github.com/Stiven-Gjekaj/Clockwise)
+
+</td>
+<td width="50%">
 
 ### 🔤 MiruScript
+
 Minimalist programming language that compiles to C, featuring clean syntax and a complete compiler pipeline built from scratch in C11.
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
@@ -95,25 +113,26 @@ Minimalist programming language that compiles to C, featuring clean syntax and a
 
 ## 🎮 Game Development
 
-| Project | Description | Links |
-|---------|-------------|-------|
-| **PacketBrawl** | Turn-based LAN multiplayer battler supporting 2-6 players over TCP/IP with unique hero classes | [Code](https://github.com/Stiven-Gjekaj/PacketBrawl) |
-| **RogueBit** | Turn-based roguelike dungeon crawler with procedural generation and terminal-style graphics | [Code](https://github.com/Stiven-Gjekaj/RogueBit) |
-| **AI Connect 4** | Connect 4 with Minimax + alpha-beta pruning, hints, undo, and adjustable difficulty | [Play](https://stiven-gjekaj.github.io/AI-Connect4/) · [Code](https://github.com/Stiven-Gjekaj/AI-Connect4) |
+| Project          | Description                                                                                    | Links                                                                                                       |
+| ---------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **PacketBrawl**  | Turn-based LAN multiplayer battler supporting 2-6 players over TCP/IP with unique hero classes | [Code](https://github.com/Stiven-Gjekaj/PacketBrawl)                                                        |
+| **RogueBit**     | Turn-based roguelike dungeon crawler with procedural generation and terminal-style graphics    | [Code](https://github.com/Stiven-Gjekaj/RogueBit)                                                           |
+| **AI Connect 4** | Connect 4 with Minimax + alpha-beta pruning, hints, undo, and adjustable difficulty            | [Play](https://stiven-gjekaj.github.io/AI-Connect4/) · [Code](https://github.com/Stiven-Gjekaj/AI-Connect4) |
 
 ## 🛠️ Additional Tools
 
-| Project | Description | Links |
-|---------|-------------|-------|
-| **Telemetra** | Real-time Twitch analytics platform processing live events with anomaly detection and visualizations | [Code](https://github.com/Stiven-Gjekaj/Telemetra) |
-| **Invox** | Modern invoice maker built entirely in vanilla JavaScript with client-side PDF generation | [Demo](https://stiven-gjekaj.github.io/Invox/) · [Code](https://github.com/Stiven-Gjekaj/Invox) |
-| **Wattpad4You** | CLI tool for downloading Wattpad stories and compiling them into polished PDFs | [Code](https://github.com/Stiven-Gjekaj/Wattpad4You) |
+| Project         | Description                                                                                          | Links                                                                                           |
+| --------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Telemetra**   | Real-time Twitch analytics platform processing live events with anomaly detection and visualizations | [Code](https://github.com/Stiven-Gjekaj/Telemetra)                                              |
+| **Invox**       | Modern invoice maker built entirely in vanilla JavaScript with client-side PDF generation            | [Demo](https://stiven-gjekaj.github.io/Invox/) · [Code](https://github.com/Stiven-Gjekaj/Invox) |
+| **Wattpad4You** | CLI tool for downloading Wattpad stories and compiling them into polished PDFs                       | [Code](https://github.com/Stiven-Gjekaj/Wattpad4You)                                            |
 
 ## 💻 Technical Skills
 
 <div align="center">
 
 ### Languages
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -123,6 +142,7 @@ Minimalist programming language that compiles to C, featuring clean syntax and a
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 ### Backend & Databases
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -130,11 +150,13 @@ Minimalist programming language that compiles to C, featuring clean syntax and a
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ### Frontend
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### DevOps & Tools
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
@@ -144,6 +166,7 @@ Minimalist programming language that compiles to C, featuring clean syntax and a
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 
 ### Specializations
+
 ![Embedded Systems](https://img.shields.io/badge/Embedded_Systems-00979D?style=for-the-badge)
 ![Circuit Design](https://img.shields.io/badge/Circuit_Design-FF6B6B?style=for-the-badge)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -174,8 +197,8 @@ Minimalist programming language that compiles to C, featuring clean syntax and a
 ```javascript
 const currentProjects = {
   professional: "Building my online presence on LinkedIn",
-  development: "Developing 'Clockwise' - a productivity time-tracker / project-manager",
-  learning: "Exploring new practices & languages"
+  development: "Developing 'JotBox' - a collaberative notekeeping web app.",
+  learning: "Exploring new practices & languages",
 };
 ```
 
