@@ -197,7 +197,7 @@ Minimalist programming language that compiles to C, featuring clean syntax and a
 ```javascript
 const currentProjects = {
   professional: "Building my online presence on LinkedIn",
-  development: "Developing 'JotBox' - a collaberative notekeeping web app.",
+  development: "Developing 'JotBox' - a collaborative notekeeping web app.",
   learning: "Exploring new practices & languages",
 };
 ```
