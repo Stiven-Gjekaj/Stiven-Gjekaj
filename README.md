@@ -24,6 +24,21 @@ I build systems that bridge software and hardware, from full-stack applications 
 <tr>
 <td width="50%">
 
+### ⚡ SpeedyFibonacci
+
+Educational benchmark suite comparing 12 Fibonacci algorithms from naive recursion to fast doubling. Demonstrates O(2^n), O(n), and O(log n) complexity with comprehensive performance metrics and visualizations.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Numba](https://img.shields.io/badge/Numba-00A3E0?style=flat-square&logo=numba&logoColor=white)
+![Cython](https://img.shields.io/badge/Cython-FFD43B?style=flat-square&logo=python&logoColor=black)
+![Algorithms](https://img.shields.io/badge/Algorithms-0099CC?style=flat-square)
+
+[View Repository →](https://github.com/Stiven-Gjekaj/SpeedyFibonacci)
+
+</td>
+<td width="50%">
+
 ### 💰 SmartSpend
 
 Full-stack expense tracking application with advanced features including CSV import, receipt OCR scanning, and ML-powered automatic categorization.
@@ -38,6 +53,8 @@ Full-stack expense tracking application with advanced features including CSV imp
 [View Repository →](https://github.com/Stiven-Gjekaj/SmartSpend)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### ⚡ GoQuorra
@@ -53,8 +70,6 @@ Lightweight, distributed job queue system for Go featuring reliability guarantee
 [View Repository →](https://github.com/Stiven-Gjekaj/GoQuorra)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 ### 🔬 Knot Labs
@@ -68,6 +83,8 @@ Modular social media sandbox platform with sophisticated media classification, f
 [View Repository →](https://github.com/Stiven-Gjekaj/Knot-Labs)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### 🏎️ InertiaX
@@ -81,8 +98,6 @@ High-fidelity 2D car physics simulator combining advanced physics modeling with 
 [View Repository →](https://github.com/Stiven-Gjekaj/InertiaX)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 ### ⏱️ Clockwise
@@ -96,6 +111,8 @@ Cross-platform desktop app for precise time logging and productivity analytics. 
 [View Repository →](https://github.com/Stiven-Gjekaj/Clockwise)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### 🔤 MiruScript
