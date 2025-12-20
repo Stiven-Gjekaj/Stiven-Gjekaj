@@ -87,8 +87,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
     <br><br>
     <a href="https://github.com/Stiven-Gjekaj/SpeedyFibonacci"><b>View Repository ➜</b></a>
   </td>
-  <td width="50%" align="center">
-    <h3>🔬 Knot Labs</h3>
+  <td width="50%" align="center">    <h3>🔬 Knot Labs</h3>
     <p><b>AI Media Sandbox</b></p>
     <p>Social platform featuring media classification and face recognition capabilities.</p>
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
@@ -98,6 +97,18 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
     <a href="https://github.com/Stiven-Gjekaj/Knot-Labs"><b>View Repository ➜</b></a>
   </td>
 </tr>
+<tr>
+  <td width="50%" align="center">    <h3>� CardVault</h3>
+    <p><b>ID Card Generation System</b></p>
+    <p>Professional ID card generation with approval workflows, PDF generation with QR codes, and email notifications.</p>
+    <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Java-17+-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+    <br><br>
+    <a href="https://github.com/Stiven-Gjekaj/CardVault"><b>View Repository ➜</b></a>
+  </td>
+
 </table>
 
 <div align="center">
