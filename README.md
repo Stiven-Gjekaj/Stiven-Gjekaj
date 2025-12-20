@@ -136,4 +136,5 @@ const stiven = {
     fun_fact: "I optimize recursive algorithms for fun."
 };
 ```
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=footer)
 </div>
