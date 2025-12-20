@@ -98,7 +98,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
   </td>
 </tr>
 <tr>
-  <td width="50%" align="center">    <h3>� CardVault</h3>
+  <td width="50%" align="center">    <h3>🛡️ CardVault</h3>
     <p><b>ID Card Generation System</b></p>
     <p>Professional ID card generation with approval workflows, PDF generation with QR codes, and email notifications.</p>
     <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
