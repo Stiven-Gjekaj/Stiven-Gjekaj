@@ -141,6 +141,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 ```javascript
 const stiven = {
+    status: "on break",
     code: ["Python", "Go", "C++", "C"],
     learning: "Advanced Embedded Linux & Kernel Drivers",
     current_project: "JotBox (Real-time collaborative workspace)",
