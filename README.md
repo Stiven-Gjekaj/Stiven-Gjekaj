@@ -66,14 +66,14 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
     <a href="https://github.com/Stiven-Gjekaj/Telemetra"><b>View Repository ➜</b></a>
   </td>
   <td width="50%" align="center">
-    <h3>🤖 WorkDelegateN1ko</h3>
-    <p><b>AI Documentation Generator</b></p>
-    <p>AI-powered technical documentation generator integrating Claude AI to automate and accelerate dev docs.</p>
+    <h3>🔬 Knot Labs</h3>
+    <p><b>AI Media Sandbox</b></p>
+    <p>Social platform featuring media classification and face recognition capabilities.</p>
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Claude_AI-CC785C?style=flat-square"/>
-    <img src="https://img.shields.io/badge/AI-FF6F00?style=flat-square"/>
+    <img src="https://img.shields.io/badge/ML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+    <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white"/>
     <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/WorkDelegateN1ko"><b>View Repository ➜</b></a>
+    <a href="https://github.com/Stiven-Gjekaj/Knot-Labs"><b>View Repository ➜</b></a>
   </td>
 </tr>
 <tr>
@@ -156,7 +156,7 @@ const stiven = {
     status: "building",
     code: ["Python", "Go", "C++", "C", "TypeScript"],
     learning: "Advanced Embedded Linux & Kernel Drivers",
-    current_project: "WorkDelegateN1ko (AI-powered documentation generator)",
+    current_project: "JotBox (Real-time collaborative workspace)",
     fun_fact: "I optimize recursive algorithms for fun."
 };
 ```
