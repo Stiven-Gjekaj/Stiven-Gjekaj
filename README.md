@@ -121,6 +121,28 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
     <a href="https://github.com/Stiven-Gjekaj/CardVault"><b>View Repository ➜</b></a>
   </td>
 </tr>
+<tr>
+  <td width="50%" align="center">
+    <h3>⚖️ Verdikt</h3>
+    <p><b>Mod Conflict Analysis Engine</b></p>
+    <p>Game-agnostic engine that ingests mod archives, builds conflict graphs via SHA-256 hashing, and scores severity — no game-specific rules required.</p>
+    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+    <img src="https://img.shields.io/badge/CLI-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Graphviz-EF7B4D?style=flat-square&logo=graphviz&logoColor=white"/>
+    <br><br>
+    <a href="https://github.com/Stiven-Gjekaj/Verdikt"><b>View Repository ➜</b></a>
+  </td>
+  <td width="50%" align="center">
+    <h3>📖 Mnemis</h3>
+    <p><b>AI Story Companion for Obsidian</b></p>
+    <p>Story-aware Obsidian plugin that builds a persistent "story bible," flags lore contradictions, and keeps narrative continuity — powered by Claude, OpenAI, or local Ollama.</p>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Claude_AI-CC785C?style=flat-square&logo=anthropic&logoColor=white"/>
+    <br><br>
+    <a href="https://github.com/Stiven-Gjekaj/Mnemis-Obsidian-Plugin"><b>View Repository ➜</b></a>
+  </td>
+</tr>
 </table>
 
 <div align="center">
