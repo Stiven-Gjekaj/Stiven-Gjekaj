@@ -171,16 +171,6 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 <div align="center">
 
-### 📍 Current Status
 
-```javascript
-const stiven = {
-    status: "building",
-    code: ["Python", "Go", "C++", "C", "TypeScript"],
-    learning: "Advanced Embedded Linux & Kernel Drivers",
-    current_project: "JotBox (Real-time collaborative workspace)",
-    fun_fact: "I optimize recursive algorithms for fun."
-};
-```
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=footer)
 </div>
