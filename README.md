@@ -158,9 +158,6 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Stiven-Gjekaj&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=25C3F5&icon_color=25C3F5&text_color=ffffff" height="160" alt="stats graph" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Stiven-Gjekaj&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=25C3F5&text_color=ffffff" height="160" alt="languages graph" />
-
 <br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Stiven-Gjekaj&theme=tokyonight&hide_border=true&background=00000000&ring=25C3F5&fire=25C3F5&currStreakLabel=25C3F5&sideNums=ffffff&sideLabels=ffffff" alt="streak stats"/>
