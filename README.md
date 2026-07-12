@@ -57,7 +57,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 - **🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** · Climate dashboard tracking Paris Agreement progress across 200+ countries · `Python` `Streamlit` `Plotly`
 - **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
-- **📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)** · Open-source offline-first knowledge management platform, a Notion and Obsidian alternative · `Vue` `TypeScript` `Go`
+- **📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)** · Open-source offline-first knowledge management platform · `Vue` `TypeScript` `Go`
 
 ---
 
