@@ -31,126 +31,59 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 ## 🧪 Selected Engineering Works
 
-<table border="0">
-<tr>
-  <td width="50%" align="center">
-    <h3>📡 GoQuorra</h3>
-    <p><b>Distributed Job Queue System</b></p>
-    <p>A lightweight, high-reliability queue for Go. Built to handle scale with observability baked in.</p>
-    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-    <img src="https://img.shields.io/badge/gRPC-4285F4?style=flat-square&logo=google&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-    <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/GoQuorra"><b>View Repository ➜</b></a>
-  </td>
-  <td width="50%" align="center">
-    <h3>🏎️ InertiaX</h3>
-    <p><b>Physics Simulation Engine</b></p>
-    <p>Real-time 2D car physics simulator. Bridges complex mathematical modeling with OpenGL rendering.</p>
-    <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-    <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Physics-000000?style=flat-square"/>
-    <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/InertiaX"><b>View Repository ➜</b></a>
-  </td>
-</tr>
-<tr>
-  <td width="50%" align="center">
-    <h3>📊 Telemetra</h3>
-    <p><b>Real-Time Analytics Platform</b></p>
-    <p>Live Twitch event processing pipeline with anomaly detection, streaming ingestion, and real-time visualizations.</p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Real_Time-FF6B6B?style=flat-square"/>
-    <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/Telemetra"><b>View Repository ➜</b></a>
-  </td>
-  <td width="50%" align="center">
-    <h3>🔬 Knot Labs</h3>
-    <p><b>AI Media Sandbox</b></p>
-    <p>Social platform featuring media classification and face recognition capabilities.</p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    <img src="https://img.shields.io/badge/ML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-    <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white"/>
-    <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/Knot-Labs"><b>View Repository ➜</b></a>
-  </td>
-</tr>
-<tr>
-  <td width="50%" align="center">
-    <h3>💰 SmartSpend</h3>
-    <p><b>Automated Finance Analytics</b></p>
-    <p>Full-stack finance app with OCR receipt scanning and Machine Learning categorization.</p>
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-    <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-    <img src="https://img.shields.io/badge/ML-FF6F00?style=flat-square"/>
-    <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/SmartSpend"><b>View Repository ➜</b></a>
-  </td>
-  <td width="50%" align="center">
-    <h3>🔤 MiruScript</h3>
-    <p><b>Compiler Design</b></p>
-    <p>A minimalist programming language that compiles to C, with a full compiler pipeline built from scratch in C11.</p>
-    <img src="https://img.shields.io/badge/C11-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
-    <img src="https://img.shields.io/badge/Compiler-00599C?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Low_Level-555555?style=flat-square"/>
-    <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/MiruScript"><b>View Repository ➜</b></a>
-  </td>
-</tr>
-<tr>
-  <td width="50%" align="center">
-    <h3>⚡ SpeedyFibonacci</h3>
-    <p><b>Algorithm Benchmark Suite</b></p>
-    <p>Performance analysis of 12 Fibonacci algorithms from Naive O(2^n) to Fast Doubling O(log n).</p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Cython-FFD43B?style=flat-square&logo=python&logoColor=black"/>
-    <img src="https://img.shields.io/badge/Numba-00A3E0?style=flat-square&logo=numba&logoColor=white"/>
-    <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/SpeedyFibonacci"><b>View Repository ➜</b></a>
-  </td>
-  <td width="50%" align="center">
-    <h3>🛡️ CardVault</h3>
-    <p><b>ID Card Generation System</b></p>
-    <p>Professional ID card generation with approval workflows, PDF generation with QR codes, and email notifications.</p>
-    <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Java-17+-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-    <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/CardVault"><b>View Repository ➜</b></a>
-  </td>
-</tr>
-<tr>
-  <td width="50%" align="center">
-    <h3>⚖️ Verdikt</h3>
-    <p><b>Mod Conflict Analysis Engine</b></p>
-    <p>Game-agnostic engine that ingests mod archives, builds conflict graphs via SHA-256 hashing, and scores severity — no game-specific rules required.</p>
-    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
-    <img src="https://img.shields.io/badge/CLI-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Graphviz-EF7B4D?style=flat-square&logo=graphviz&logoColor=white"/>
-    <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/Verdikt"><b>View Repository ➜</b></a>
-  </td>
-  <td width="50%" align="center">
-    <h3>📖 Mnemis</h3>
-    <p><b>AI Story Companion for Obsidian</b></p>
-    <p>Story-aware Obsidian plugin that builds a persistent "story bible," flags lore contradictions, and keeps narrative continuity — powered by Claude, OpenAI, or local Ollama.</p>
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Claude_AI-CC785C?style=flat-square&logo=anthropic&logoColor=white"/>
-    <br><br>
-    <a href="https://github.com/Stiven-Gjekaj/Mnemis-Obsidian-Plugin"><b>View Repository ➜</b></a>
-  </td>
-</tr>
-</table>
+**📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** — *Distributed Job Queue System*
+A lightweight, high-reliability queue for Go. Built to handle scale with observability baked in.
+`Go` · `gRPC` · `Redis`
 
-<div align="center">
-<br>
+**🏎️ [InertiaX](https://github.com/Stiven-Gjekaj/InertiaX)** — *Physics Simulation Engine*
+Real-time 2D car physics simulator. Bridges complex mathematical modeling with OpenGL rendering.
+`C++` · `OpenGL` · `Physics`
 
-**[...and many more, including Game Dev, Benchmarks, and Analytics tools.](https://github.com/Stiven-Gjekaj?tab=repositories)**
+**📊 [Telemetra](https://github.com/Stiven-Gjekaj/Telemetra)** — *Real-Time Analytics Platform*
+Live Twitch event processing pipeline with anomaly detection, streaming ingestion, and real-time visualizations.
+`Python` · `Kafka` · `Real-Time`
 
-</div>
+**🔬 [Knot Labs](https://github.com/Stiven-Gjekaj/Knot-Labs)** — *AI Media Sandbox*
+Social platform featuring media classification and face recognition capabilities.
+`Python` · `ML` · `FAISS`
+
+**💰 [SmartSpend](https://github.com/Stiven-Gjekaj/SmartSpend)** — *Automated Finance Analytics*
+Full-stack finance app with OCR receipt scanning and Machine Learning categorization.
+`FastAPI` · `React` · `ML`
+
+**🔤 [MiruScript](https://github.com/Stiven-Gjekaj/MiruScript)** — *Compiler Design*
+A minimalist programming language that compiles to C, with a full compiler pipeline built from scratch in C11.
+`C11` · `Compiler` · `Low Level`
+
+**⚡ [SpeedyFibonacci](https://github.com/Stiven-Gjekaj/SpeedyFibonacci)** — *Algorithm Benchmark Suite*
+Performance analysis of 12 Fibonacci algorithms from Naive O(2^n) to Fast Doubling O(log n).
+`Python` · `Cython` · `Numba`
+
+**🛡️ [CardVault](https://github.com/Stiven-Gjekaj/CardVault)** — *ID Card Generation System*
+Professional ID card generation with approval workflows, PDF generation with QR codes, and email notifications.
+`Spring Boot` · `Java 17+` · `MySQL` · `Docker`
+
+**⚖️ [Verdikt](https://github.com/Stiven-Gjekaj/Verdikt)** — *Mod Conflict Analysis Engine*
+Game-agnostic engine that ingests mod archives, builds conflict graphs via SHA-256 hashing, and scores severity — no game-specific rules required.
+`Rust` · `CLI` · `Graphviz`
+
+**📖 [Mnemis](https://github.com/Stiven-Gjekaj/Mnemis-Obsidian-Plugin)** — *AI Story Companion for Obsidian*
+Story-aware Obsidian plugin that builds a persistent "story bible," flags lore contradictions, and keeps narrative continuity — powered by Claude, OpenAI, or local Ollama.
+`TypeScript` · `Obsidian` · `Claude AI`
+
+**[...and many more, including Game Dev, Benchmarks, and Analytics tools ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
+
+---
+
+## 🤝 Open Source Contributions
+
+**🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** — *Climate NDC Progress Tracker*
+Contributed to an interactive dashboard tracking Paris Agreement progress across 200+ countries, with real-time green scoring, gap analysis, and interactive world maps.
+`Python` · `Streamlit` · `Plotly` · `pandas`
+
+**✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** — *Collaborative Diagramming Platform*
+Contributed to an open-source, account-free real-time diagram board with capability-based sharing, 47 shape types, smart connectors, and an AI co-editor.
+`TypeScript` · `React` · `FastAPI` · `WebSocket`
 
 ---
 
