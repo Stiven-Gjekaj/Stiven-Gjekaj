@@ -31,45 +31,23 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 ## 🧪 Selected Engineering Works
 
-**📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** — *Distributed Job Queue System*
-A lightweight, high-reliability queue for Go. Built to handle scale with observability baked in.
-`Go` · `gRPC` · `Redis`
-
-**🏎️ [InertiaX](https://github.com/Stiven-Gjekaj/InertiaX)** — *Physics Simulation Engine*
-Real-time 2D car physics simulator. Bridges complex mathematical modeling with OpenGL rendering.
-`C++` · `OpenGL` · `Physics`
-
-**📊 [Telemetra](https://github.com/Stiven-Gjekaj/Telemetra)** — *Real-Time Analytics Platform*
-Live Twitch event processing pipeline with anomaly detection, streaming ingestion, and real-time visualizations.
-`Python` · `Kafka` · `Real-Time`
-
-**🔬 [Knot Labs](https://github.com/Stiven-Gjekaj/Knot-Labs)** — *AI Media Sandbox*
-Social platform featuring media classification and face recognition capabilities.
-`Python` · `ML` · `FAISS`
-
-**💰 [SmartSpend](https://github.com/Stiven-Gjekaj/SmartSpend)** — *Automated Finance Analytics*
-Full-stack finance app with OCR receipt scanning and Machine Learning categorization.
-`FastAPI` · `React` · `ML`
-
-**🔤 [MiruScript](https://github.com/Stiven-Gjekaj/MiruScript)** — *Compiler Design*
-A minimalist programming language that compiles to C, with a full compiler pipeline built from scratch in C11.
-`C11` · `Compiler` · `Low Level`
-
-**⚡ [SpeedyFibonacci](https://github.com/Stiven-Gjekaj/SpeedyFibonacci)** — *Algorithm Benchmark Suite*
-Performance analysis of 12 Fibonacci algorithms from Naive O(2^n) to Fast Doubling O(log n).
-`Python` · `Cython` · `Numba`
-
-**🛡️ [CardVault](https://github.com/Stiven-Gjekaj/CardVault)** — *ID Card Generation System*
-Professional ID card generation with approval workflows, PDF generation with QR codes, and email notifications.
-`Spring Boot` · `Java 17+` · `MySQL` · `Docker`
-
-**⚖️ [Verdikt](https://github.com/Stiven-Gjekaj/Verdikt)** — *Mod Conflict Analysis Engine*
-Game-agnostic engine that ingests mod archives, builds conflict graphs via SHA-256 hashing, and scores severity — no game-specific rules required.
-`Rust` · `CLI` · `Graphviz`
-
-**📖 [Mnemis](https://github.com/Stiven-Gjekaj/Mnemis-Obsidian-Plugin)** — *AI Story Companion for Obsidian*
-Story-aware Obsidian plugin that builds a persistent "story bible," flags lore contradictions, and keeps narrative continuity — powered by Claude, OpenAI, or local Ollama.
-`TypeScript` · `Obsidian` · `Claude AI`
+- **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Distributed, high-reliability Go job queue with built-in observability · `Go` `gRPC` `Redis`
+- **🏎️ [InertiaX](https://github.com/Stiven-Gjekaj/InertiaX)** · Real-time 2D car physics simulator with OpenGL rendering · `C++` `OpenGL`
+- **📊 [Telemetra](https://github.com/Stiven-Gjekaj/Telemetra)** · Real-time Twitch analytics pipeline with anomaly detection · `Python` `Kafka`
+- **🔬 [Knot Labs](https://github.com/Stiven-Gjekaj/Knot-Labs)** · Social platform with media classification and face recognition · `Python` `ML` `FAISS`
+- **💰 [SmartSpend](https://github.com/Stiven-Gjekaj/SmartSpend)** · Finance app with OCR receipt scanning and ML categorization · `FastAPI` `React` `ML`
+- **🔤 [MiruScript](https://github.com/Stiven-Gjekaj/MiruScript)** · Minimalist language that compiles to C, pipeline built from scratch · `C11` `Compiler`
+- **⚡ [SpeedyFibonacci](https://github.com/Stiven-Gjekaj/SpeedyFibonacci)** · Benchmark of 12 Fibonacci algorithms, O(2^n) to O(log n) · `Python` `Cython` `Numba`
+- **🛡️ [CardVault](https://github.com/Stiven-Gjekaj/CardVault)** · ID card generation with approval workflows and QR-coded PDFs · `Spring Boot` `Java` `MySQL`
+- **⚖️ [Verdikt](https://github.com/Stiven-Gjekaj/Verdikt)** · Game-agnostic mod conflict analysis engine using SHA-256 hashing · `Rust` `CLI`
+- **📖 [Mnemis](https://github.com/Stiven-Gjekaj/Mnemis-Obsidian-Plugin)** · AI story companion for Obsidian that tracks lore continuity · `TypeScript` `Obsidian`
+- **🎯 [ClutchCoach](https://github.com/Stiven-Gjekaj/ClutchCoach)** · AI-powered CS2 voice coaching assistant · `Python` `AI`
+- **🌌 [Aurora](https://github.com/Stiven-Gjekaj/Aurora)** · Knowledge base builder pulling from Wikipedia and arXiv · `Python`
+- **⏱️ [Clockwise](https://github.com/Stiven-Gjekaj/Clockwise)** · Desktop time-logging and productivity analytics app · `Python`
+- **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · Real-time multiplayer LAN battler · `C#`
+- **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Terminal-style roguelike dungeon crawler · `C#`
+- **📝 [MarkdownConverter](https://github.com/Stiven-Gjekaj/MarkdownConverter)** · Markdown and rich-text converter with a hand-drawn aesthetic · `JavaScript`
+- **📚 [WorkDelegateN1ko](https://github.com/Stiven-Gjekaj/WorkDelegateN1ko)** · AI-powered technical documentation generator · `Python`
 
 **[...and many more, including Game Dev, Benchmarks, and Analytics tools ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
 
@@ -77,13 +55,8 @@ Story-aware Obsidian plugin that builds a persistent "story bible," flags lore c
 
 ## 🤝 Open Source Contributions
 
-**🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** — *Climate NDC Progress Tracker*
-Contributed to an interactive dashboard tracking Paris Agreement progress across 200+ countries, with real-time green scoring, gap analysis, and interactive world maps.
-`Python` · `Streamlit` · `Plotly` · `pandas`
-
-**✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** — *Collaborative Diagramming Platform*
-Contributed to an open-source, account-free real-time diagram board with capability-based sharing, 47 shape types, smart connectors, and an AI co-editor.
-`TypeScript` · `React` · `FastAPI` · `WebSocket`
+- **🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** · Climate dashboard tracking Paris Agreement progress across 200+ countries · `Python` `Streamlit` `Plotly`
+- **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
 
 ---
 
