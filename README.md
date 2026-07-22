@@ -4,7 +4,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Building+at+the+Hardware-Software+Boundary;From+Embedded+Circuits+to+Cloud+Clusters;Optimizing+Performance+%40+O(log+n);Engineering+Distributed+Systems)](https://git.io/typing-svg)
 
 <a href="https://www.linkedin.com/in/stiven-gjekaj"><img src="https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://stiven-gjekaj.github.io/portfolio/"><img src="https://img.shields.io/badge/View-Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white"/></a>
 <a href="mailto:stivenagostingjekaj@gmail.com"><img src="https://img.shields.io/badge/Email-stivenagostingjekaj%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 <br>
