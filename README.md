@@ -36,7 +36,6 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 - **📊 [Telemetra](https://github.com/Stiven-Gjekaj/Telemetra)** · Real-time Twitch analytics pipeline with anomaly detection · `Python` `Kafka`
 - **🔬 [Knot Labs](https://github.com/Stiven-Gjekaj/Knot-Labs)** · Social platform with media classification and face recognition · `Python` `ML` `FAISS`
 - **💰 [SmartSpend](https://github.com/Stiven-Gjekaj/SmartSpend)** · Finance app with OCR receipt scanning and ML categorization · `FastAPI` `React` `ML`
-- **🔤 [MiruScript](https://github.com/Stiven-Gjekaj/MiruScript)** · Minimalist language that compiles to C, pipeline built from scratch · `C11` `Compiler`
 - **⚡ [SpeedyFibonacci](https://github.com/Stiven-Gjekaj/SpeedyFibonacci)** · Benchmark of 12 Fibonacci algorithms, O(2^n) to O(log n) · `Python` `Cython` `Numba`
 - **🛡️ [CardVault](https://github.com/Stiven-Gjekaj/CardVault)** · ID card generation with approval workflows and QR-coded PDFs · `Spring Boot` `Java` `MySQL`
 - **⚖️ [Verdikt](https://github.com/Stiven-Gjekaj/Verdikt)** · Game-agnostic mod conflict analysis engine using SHA-256 hashing · `Rust` `CLI`
