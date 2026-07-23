@@ -22,13 +22,19 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 | **The Core** | **Systems & Low Level** | **Web Ecosystem** | **Hardware & AI** |
 | :---: | :---: | :---: | :---: |
-| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) <br> ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white) <br> ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white) <br> ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) <br> ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white) <br> ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat&logo=apachekafka&logoColor=white) <br> ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white) | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) <br> ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) <br> ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) | ![Circuit](https://img.shields.io/badge/-Circuits-FF6B6B?style=flat) <br> ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) <br> ![Embedded](https://img.shields.io/badge/-Embedded-00979D?style=flat) <br> ![Claude AI](https://img.shields.io/badge/-Claude_AI-CC785C?style=flat) |
+| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) <br> ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white) <br> ![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white) <br> ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat&logo=rust&logoColor=white) | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) <br> ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white) <br> ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat&logo=apachekafka&logoColor=white) <br> ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white) | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) <br> ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white) <br> ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) | ![Circuit](https://img.shields.io/badge/-Circuits-FF6B6B?style=flat) <br> ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) <br> ![Embedded](https://img.shields.io/badge/-Embedded-00979D?style=flat) <br> ![Claude AI](https://img.shields.io/badge/-Claude_AI-CC785C?style=flat) |
 
 </div>
 
 ---
 
-## 🧪 Selected Engineering Works
+## 🚧 Current Projects
+
+- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Dynamically-typed scripting language with zero external dependencies · `Rust`
+
+---
+
+## 🧪 Other Projects
 
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Distributed, high-reliability Go job queue with built-in observability · `Go` `gRPC` `Redis`
 - **🏎️ [InertiaX](https://github.com/Stiven-Gjekaj/InertiaX)** · Real-time 2D car physics simulator with OpenGL rendering · `C++` `OpenGL`
