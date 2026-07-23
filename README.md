@@ -30,7 +30,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 ## 🚧 Current Projects
 
-- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Dynamically-typed scripting language with zero external dependencies · `Rust`
+- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust`
 
 ---
 
