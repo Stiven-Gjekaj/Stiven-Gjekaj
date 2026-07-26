@@ -31,7 +31,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 ## 🚧 Current Projects
 
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust`
-- **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only Create Your Frisk engine · `C#` `Unity` `Lua`
+- **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua`
 
 ---
 
