@@ -28,6 +28,13 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 ---
 
+## 🏢 Organizations
+
+- **🤝 [Code Charity](https://github.com/code-charity)** · Open-source collective building browser extensions and crowd-sourced web fixes for 850k+ users
+- **📄 [Paper Trail Development](https://github.com/PaperTrailDev)** · Indie game studio prototyping across Unity, Godot, and custom C++ engines
+
+---
+
 ## 🚧 Current Projects
 
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust`
@@ -60,6 +67,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 ## 🤝 Open Source Contributions
 
+- **📺 [ImprovedTube](https://github.com/code-charity/youtube)** · YouTube extension with 350+ tweaks for playback, UI, and discovery · `JavaScript` `CSS`
 - **🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** · Climate dashboard tracking Paris Agreement progress across 200+ countries · `Python` `Streamlit` `Plotly`
 - **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
 - **📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)** · Open-source offline-first knowledge management platform · `Vue` `TypeScript` `Go`
