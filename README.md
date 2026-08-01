@@ -42,6 +42,16 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 ---
 
+## 🤝 Open Source Contributions
+
+- **📺 [ImprovedTube](https://github.com/code-charity/youtube)** · YouTube extension with 350+ tweaks for playback, UI, and discovery · `JavaScript` `CSS`
+- **🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** · Climate dashboard tracking Paris Agreement progress across 200+ countries · `Python` `Streamlit` `Plotly`
+- **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
+- **📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)** · Open-source offline-first knowledge management platform · `Vue` `TypeScript` `Go`
+- **🔮 [Ante](https://github.com/jfecher/ante)** · Low-level functional language exploring safe shared mutability · `Rust` `LLVM`
+
+---
+
 ## 🧪 Other Projects
 
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Distributed, high-reliability Go job queue with built-in observability · `Go` `gRPC` `Redis`
@@ -62,16 +72,6 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 - **📚 [WorkDelegateN1ko](https://github.com/Stiven-Gjekaj/WorkDelegateN1ko)** · AI-powered technical documentation generator · `Python`
 
 **[...and many more, including Game Dev, Benchmarks, and Analytics tools ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
-
----
-
-## 🤝 Open Source Contributions
-
-- **📺 [ImprovedTube](https://github.com/code-charity/youtube)** · YouTube extension with 350+ tweaks for playback, UI, and discovery · `JavaScript` `CSS`
-- **🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** · Climate dashboard tracking Paris Agreement progress across 200+ countries · `Python` `Streamlit` `Plotly`
-- **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
-- **📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)** · Open-source offline-first knowledge management platform · `Vue` `TypeScript` `Go`
-- **🔮 [Ante](https://github.com/jfecher/ante)** · Low-level functional language exploring safe shared mutability · `Rust` `LLVM`
 
 ---
 
