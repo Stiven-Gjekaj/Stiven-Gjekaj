@@ -40,6 +40,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust`
 - **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua`
 - **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper`
+- **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · Converts EPUBs into M4B audiobooks with a distinct voice per character · `Python` `Kokoro`
 
 ---
 
