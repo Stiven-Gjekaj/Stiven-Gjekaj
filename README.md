@@ -41,6 +41,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 - **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua`
 - **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · Converts EPUBs into M4B audiobooks with a distinct voice per character · `Python` `ChatterBox`
+- **🔧 [Bitsmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
 
 ---
 
