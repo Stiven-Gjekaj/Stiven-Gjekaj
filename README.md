@@ -44,6 +44,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 **Hardware & AI**
 
 <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,opencv" />
+<img src="https://cdn.simpleicons.org/claude/CC785C" width="48" height="48" alt="Claude AI"/>
 
 </div>
 
