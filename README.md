@@ -62,7 +62,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter`
 - **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper`
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
-- **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Terminal-style roguelike dungeon crawler · `C#`
+- **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole` `Procedural Generation`
 
 ---
 
