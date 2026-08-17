@@ -9,6 +9,15 @@
 
 I am an **Electronics Engineering Student @ UPT** with a passion for high-fidelity performance. Whether it's designing a compiler from scratch, simulating physics in C++, or architecting distributed Go microservices, I focus on **clean architecture** and **computational efficiency**.
 
+<br>
+
+<a href="mailto:stivenagostingjekaj@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail" alt="Email"/>
+</a>
+<a href="https://www.linkedin.com/in/stiven-gjekaj">
+<img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/>
+</a>
+
 </div>
 
 ---
@@ -108,28 +117,11 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 ---
 
-## 🤝 Connect With Me
-
-<p align="center">
-
-<a href="mailto:stivenagostingjekaj@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" alt="Email"/>
-</a>
-
-<a href="https://www.linkedin.com/in/stiven-gjekaj">
-<img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/>
-</a>
+<div align="center">
 
 <a href="https://ko-fi.com/stivengjekaj">
 <img src="https://cdn.simpleicons.org/kofi/FF5E5B" width="48" height="48" alt="Ko-fi"/>
 </a>
-
-</p>
-
----
-
-<div align="center">
-
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=footer)
 </div>
