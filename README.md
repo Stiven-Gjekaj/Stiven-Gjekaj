@@ -17,6 +17,9 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 <a href="https://www.linkedin.com/in/stiven-gjekaj">
 <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/>
 </a>
+<a href="https://ko-fi.com/stivengjekaj">
+<img src="https://cdn.simpleicons.org/kofi/FF5E5B" width="48" height="48" alt="Ko-fi"/>
+</a>
 
 </div>
 
@@ -119,9 +122,6 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 <div align="center">
 
-<a href="https://ko-fi.com/stivengjekaj">
-<img src="https://cdn.simpleicons.org/kofi/FF5E5B" width="48" height="48" alt="Ko-fi"/>
-</a>
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=footer)
 </div>
