@@ -60,9 +60,9 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 ## 🚧 Current Projects
 
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter`
-- **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper`
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
 - **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
+- **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · Real-time multiplayer LAN battler · `C#`
 
 ---
 
@@ -70,6 +70,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 - **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · Converts EPUBs into M4B audiobooks with a distinct voice per character · `Python` `ChatterBox`
+- **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper`
 
 ---
 
@@ -97,7 +98,6 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 - **🎯 [ClutchCoach](https://github.com/Stiven-Gjekaj/ClutchCoach)** · AI-powered CS2 voice coaching assistant · `Python` `AI`
 - **🌌 [Aurora](https://github.com/Stiven-Gjekaj/Aurora)** · Knowledge base builder pulling from Wikipedia and arXiv · `Python`
 - **⏱️ [Clockwise](https://github.com/Stiven-Gjekaj/Clockwise)** · Desktop time-logging and productivity analytics app · `Python`
-- **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · Real-time multiplayer LAN battler · `C#`
 - **📝 [MarkdownConverter](https://github.com/Stiven-Gjekaj/MarkdownConverter)** · Markdown and rich-text converter with a hand-drawn aesthetic · `JavaScript`
 - **📚 [WorkDelegateN1ko](https://github.com/Stiven-Gjekaj/WorkDelegateN1ko)** · AI-powered technical documentation generator · `Python`
 
