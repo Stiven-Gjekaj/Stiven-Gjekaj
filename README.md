@@ -62,7 +62,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter`
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
 - **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
-- **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · Real-time multiplayer LAN battler · `C#`
+- **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · 1v1 turn-based tactical battler built on a fully deterministic simulation core · `TypeScript` `Node.js` `Monorepo`
 
 ---
 
