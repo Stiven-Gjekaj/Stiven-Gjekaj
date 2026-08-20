@@ -57,6 +57,12 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 ---
 
+## 📖 Writing
+
+- **📚 [Soultale](https://readsoultale.com)** · Serialized saga in fifteen acts across 321 chapters, the universe behind Soulbound and PacketBrawl
+
+---
+
 ## 🚧 Current Projects
 
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter`
