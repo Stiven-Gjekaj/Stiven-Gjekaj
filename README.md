@@ -72,7 +72,6 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 ## ⏸️ Projects on Hold
 
 - **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua`
-- **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · Converts EPUBs into M4B audiobooks with a distinct voice per character · `Python` `ChatterBox`
 - **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper`
 - **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
 - **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · 1v1 turn-based tactical battler built on a fully deterministic simulation core · `TypeScript` `Node.js`
@@ -91,7 +90,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 
 ## 🧪 Other Projects
 
-- **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Distributed, high-reliability Go job queue with built-in observability · `Go` `gRPC` `Redis`
+- **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
 - **🏎️ [InertiaX](https://github.com/Stiven-Gjekaj/InertiaX)** · Real-time 2D car physics simulator with OpenGL rendering · `C++` `OpenGL`
 - **📊 [Telemetra](https://github.com/Stiven-Gjekaj/Telemetra)** · Real-time Twitch analytics pipeline with anomaly detection · `Python` `Kafka`
 - **🔬 [Knot Labs](https://github.com/Stiven-Gjekaj/Knot-Labs)** · Social platform with media classification and face recognition · `Python` `ML` `FAISS`
@@ -106,6 +105,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 - **📝 [MarkdownConverter](https://github.com/Stiven-Gjekaj/MarkdownConverter)** · Markdown and rich-text converter with a hand-drawn aesthetic · `JavaScript`
 - **📚 [WorkDelegateN1ko](https://github.com/Stiven-Gjekaj/WorkDelegateN1ko)** · AI-powered technical documentation generator · `Python`
 - **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench with Q-learning, SARSA, and policy gradients written from scratch · `Python` `RL`
+- **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · Converts EPUBs into M4B audiobooks with a distinct voice per character · `Python` `ChatterBox`
 
 **[...and many more, including Game Dev, Benchmarks, and Analytics tools ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
 
