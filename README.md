@@ -105,6 +105,7 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 - **⏱️ [Clockwise](https://github.com/Stiven-Gjekaj/Clockwise)** · Desktop time-logging and productivity analytics app · `Python`
 - **📝 [MarkdownConverter](https://github.com/Stiven-Gjekaj/MarkdownConverter)** · Markdown and rich-text converter with a hand-drawn aesthetic · `JavaScript`
 - **📚 [WorkDelegateN1ko](https://github.com/Stiven-Gjekaj/WorkDelegateN1ko)** · AI-powered technical documentation generator · `Python`
+- **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench with Q-learning, SARSA, and policy gradients written from scratch · `Python` `RL`
 
 **[...and many more, including Game Dev, Benchmarks, and Analytics tools ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
 
