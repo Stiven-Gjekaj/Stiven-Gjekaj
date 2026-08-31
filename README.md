@@ -85,7 +85,6 @@ I am an **Electronics Engineering Student @ UPT** with a passion for high-fideli
 - **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
 - **📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)** · Open-source offline-first knowledge management platform · `Vue` `TypeScript` `Go`
 - **🔮 [Ante](https://github.com/jfecher/ante)** · Low-level functional language exploring safe shared mutability · `Rust` `LLVM`
-- **📐 [statrs](https://github.com/statrs-dev/statrs)** · Statistical computing library for Rust with distributions and special functions · `Rust` `Statistics`
 
 ---
 
