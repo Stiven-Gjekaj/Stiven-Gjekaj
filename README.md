@@ -30,6 +30,7 @@ A scripting language and the interpreter under it. A job queue that survives its
 
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter`
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
+- **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
 
 ---
 
