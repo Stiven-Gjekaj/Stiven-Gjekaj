@@ -85,6 +85,7 @@ A scripting language and the interpreter under it. A job queue that survives its
 - **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
 - **📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)** · Open-source offline-first knowledge management platform · `Vue` `TypeScript` `Go`
 - **🔮 [Ante](https://github.com/jfecher/ante)** · Low-level functional language exploring safe shared mutability · `Rust` `LLVM`
+- **🦴 [mandible](https://github.com/AS-FOSS/mandible)** · TUI manual browser for every command-line tool on your machine · `Rust` `TUI`
 
 ---
 
