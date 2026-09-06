@@ -48,7 +48,7 @@ A scripting language and the interpreter under it. A job queue that survives its
 - **📊 [Telemetra](https://github.com/Stiven-Gjekaj/Telemetra)** · Real-time Twitch analytics pipeline with anomaly detection · `Python` `Kafka`
 
 <details>
-<summary><b>🗄️ Eleven more</b> — apps, ML, benchmarks, and tooling</summary>
+<summary><b>🗄️ Eleven more</b> · apps, ML, benchmarks, and tooling</summary>
 
 <br>
 
