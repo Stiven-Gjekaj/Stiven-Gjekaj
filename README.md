@@ -2,13 +2,13 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Interpreters,+Queues,+and+Things+That+Run+Offline;Rust+at+the+Core,+TypeScript+at+the+Edge;Zero+Dependencies+Where+It+Counts;Reproducible+From+a+Seed)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Decompilers,+Diffs,+and+Things+That+Run+Offline;Rust+at+the+Core,+TypeScript+at+the+Edge;Nothing+Leaves+Your+Machine;Reproducible+From+a+Seed)](https://git.io/typing-svg)
 
 ### *"I build systems where the silicon meets the server."*
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
-A scripting language and the interpreter under it. A job queue that survives its own workers dying. File tools that never touch a server. The themes that keep coming back are **determinism**, **zero dependencies**, and runs that **reproduce from a seed**.
+A decompiler that recovers Visual Basic 6 forms out of a binary. A structural diff that says what changed in an image or a mesh instead of which pixels moved. A job queue that survives its own workers dying. The themes that keep coming back are **local-first**, **zero dependencies**, and runs that **reproduce from a seed**.
 
 <br>
 
