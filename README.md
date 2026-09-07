@@ -28,9 +28,8 @@ A scripting language and the interpreter under it. A job queue that survives its
 
 ## 🚧 Building Right Now
 
-- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter`
-- **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
 - **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
+- **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Visual Basic 6 decompiler that recovers forms and control structures · `Rust` `Decompiler`
 
 ---
 
@@ -43,13 +42,13 @@ A scripting language and the interpreter under it. A job queue that survives its
 ## 🛠️ Selected Work
 
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
-- **⚖️ [Verdikt](https://github.com/Stiven-Gjekaj/Verdikt)** · Game-agnostic mod conflict analysis engine using SHA-256 hashing · `Rust` `CLI`
 - **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench with Q-learning, SARSA, and policy gradients written from scratch · `Python` `RL`
-- **🏎️ [InertiaX](https://github.com/Stiven-Gjekaj/InertiaX)** · Real-time 2D car physics simulator with OpenGL rendering · `C++` `OpenGL`
-- **📊 [Telemetra](https://github.com/Stiven-Gjekaj/Telemetra)** · Real-time Twitch analytics pipeline with anomaly detection · `Python` `Kafka`
+- **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
+- **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper`
+- **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
 
 <details>
-<summary><b>🗄️ Eleven more</b> · apps, ML, benchmarks, and tooling</summary>
+<summary><b>🗄️ Fifteen more</b> · apps, games, ML, benchmarks, and tooling</summary>
 
 <br>
 
@@ -64,6 +63,10 @@ A scripting language and the interpreter under it. A job queue that survives its
 - **📝 [MarkdownConverter](https://github.com/Stiven-Gjekaj/MarkdownConverter)** · Markdown and rich-text converter with a hand-drawn aesthetic · `JavaScript`
 - **📚 [WorkDelegateN1ko](https://github.com/Stiven-Gjekaj/WorkDelegateN1ko)** · AI-powered technical documentation generator · `Python`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · Converts EPUBs into M4B audiobooks with a distinct voice per character · `Python` `ChatterBox`
+- **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua`
+- **⚖️ [Verdikt](https://github.com/Stiven-Gjekaj/Verdikt)** · Game-agnostic mod conflict analysis engine using SHA-256 hashing · `Rust` `CLI`
+- **🏎️ [InertiaX](https://github.com/Stiven-Gjekaj/InertiaX)** · Real-time 2D car physics simulator with OpenGL rendering · `C++` `OpenGL`
+- **📊 [Telemetra](https://github.com/Stiven-Gjekaj/Telemetra)** · Real-time Twitch analytics pipeline with anomaly detection · `Python` `Kafka`
 
 </details>
 
@@ -71,9 +74,7 @@ A scripting language and the interpreter under it. A job queue that survives its
 
 ## ⏸️ On Hold
 
-- **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua`
-- **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper`
-- **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
+- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter`
 - **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · 1v1 turn-based tactical battler built on a fully deterministic simulation core · `TypeScript` `Node.js`
 
 ---
