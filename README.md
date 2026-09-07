@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Decompilers,+Diffs,+and+Things+That+Run+Offline;Rust+at+the+Core,+TypeScript+at+the+Edge;Nothing+Leaves+Your+Machine;Reproducible+From+a+Seed)](https://git.io/typing-svg)
 
-### *"I build systems where the silicon meets the server."*
+### *"If it's a black box, I want to see inside it."*
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
