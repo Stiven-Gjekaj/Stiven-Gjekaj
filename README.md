@@ -8,7 +8,7 @@
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
-A decompiler that recovers Visual Basic 6 forms out of a binary. A structural diff that says what changed in an image or a mesh instead of which pixels moved. A job queue that survives its own workers dying. The themes that keep coming back are **local-first**, **zero dependencies**, and runs that **reproduce from a seed**.
+A tool that pulls the forms and control trees back out of a Visual Basic 6 binary. A structural diff that says what changed in an image or a mesh instead of which pixels moved. A job queue that survives its own workers dying. The themes that keep coming back are **local-first**, **zero dependencies**, and runs that **reproduce from a seed**.
 
 <br>
 
@@ -29,7 +29,7 @@ A decompiler that recovers Visual Basic 6 forms out of a binary. A structural di
 ## 🚧 Building Right Now
 
 - **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
-- **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Visual Basic 6 decompiler that recovers forms and control structures · `Rust` `Decompiler`
+- **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Metadata recovery from VB6 executables, every fact traced to a byte it read · `Rust` `VB6`
 
 ---
 
