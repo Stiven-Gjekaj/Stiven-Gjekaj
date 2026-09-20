@@ -30,7 +30,6 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 
 - **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Metadata recovery from VB6 executables, every fact traced to a byte it read · `Rust` `VB6`
-- **💿 [WinDiskWriterX](https://github.com/Stiven-Gjekaj/windiskwriterx)** · Bootable Windows USB creator for macOS with UEFI and legacy BIOS support · `Objective-C` `macOS`
 
 ---
 
