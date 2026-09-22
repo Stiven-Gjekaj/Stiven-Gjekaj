@@ -28,7 +28,6 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 
 ## 🚧 Building Right Now
 
-- **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Metadata recovery from VB6 executables, every fact traced to a byte it read · `Rust` `VB6`
 - **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Cross-platform CLI that writes bootable drives on Windows, macOS, and Linux · `Rust` `CLI`
 
@@ -75,6 +74,7 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 
 ## ⏸️ On Hold
 
+- **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter`
 - **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · 1v1 turn-based tactical battler built on a fully deterministic simulation core · `TypeScript` `Node.js`
 
