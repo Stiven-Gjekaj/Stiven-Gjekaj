@@ -8,7 +8,7 @@
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
-A tool that pulls the forms and control trees back out of a Visual Basic 6 binary. A structural diff that says what changed in an image or a mesh instead of which pixels moved. A job queue that survives its own workers dying. The themes that keep coming back are **local-first**, **zero dependencies**, and runs that **reproduce from a seed**.
+A tool that pulls the forms and control trees back out of a Visual Basic 6 binary. A single command that writes a bootable drive the same way on Windows, macOS, and Linux. A job queue that survives its own workers dying. The themes that keep coming back are **local-first**, **zero dependencies**, and runs that **reproduce from a seed**.
 
 <br>
 
