@@ -2,7 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Decompilers,+Boot+Drives,+and+Things+That+Run+Offline;Rust+at+the+Core,+Local+Models+at+the+Edge;Nothing+Leaves+Your+Machine;Reproducible+From+a+Seed)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Decompilers,+Boot+Drives,+and+Things+That+Run+Offline;Rust+at+the+Core,+Python+at+the+Edge;Nothing+Leaves+Your+Machine;Reproducible+From+a+Seed)](https://git.io/typing-svg)
 
 ### *"If it's a black box, I want to see inside it."*
 
