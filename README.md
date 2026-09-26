@@ -30,6 +30,7 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Metadata recovery from VB6 executables, every fact traced to a byte it read · `Rust` `VB6`
 - **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Cross-platform CLI that writes bootable drives on Windows, macOS, and Linux · `Rust` `CLI`
+- **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Desktop chatbot that writes like someone you know, with the model running on your own machine · `Python` `PySide6` `Local LLM`
 
 ---
 
