@@ -2,7 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Decompilers,+Boot+Drives,+and+Things+That+Run+Offline;Rust+at+the+Core,+TypeScript+at+the+Edge;Nothing+Leaves+Your+Machine;Reproducible+From+a+Seed)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Decompilers,+Boot+Drives,+and+Things+That+Run+Offline;Rust+at+the+Core,+Local+Models+at+the+Edge;Nothing+Leaves+Your+Machine;Reproducible+From+a+Seed)](https://git.io/typing-svg)
 
 ### *"If it's a black box, I want to see inside it."*
 
@@ -30,7 +30,6 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Metadata recovery from VB6 executables, every fact traced to a byte it read · `Rust` `VB6`
 - **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Cross-platform CLI that writes bootable drives on Windows, macOS, and Linux · `Rust` `CLI`
-- **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Desktop chatbot that writes like someone you know, with the model running on your own machine · `Python` `PySide6` `Local LLM`
 
 ---
 
@@ -48,9 +47,11 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
 - **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper`
 - **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
+- **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know · `Python` `Local LLM`
+- **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
 
 <details>
-<summary><b>🗄️ Fifteen more</b> · apps, games, ML, benchmarks, and tooling</summary>
+<summary><b>🗄️ Fourteen more</b> · apps, games, ML, benchmarks, and tooling</summary>
 
 <br>
 
@@ -64,7 +65,6 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 - **⏱️ [Clockwise](https://github.com/Stiven-Gjekaj/Clockwise)** · Desktop time-logging and productivity analytics app · `Python`
 - **📝 [MarkdownConverter](https://github.com/Stiven-Gjekaj/MarkdownConverter)** · Markdown and rich-text converter with a hand-drawn aesthetic · `JavaScript`
 - **📚 [WorkDelegateN1ko](https://github.com/Stiven-Gjekaj/WorkDelegateN1ko)** · AI-powered technical documentation generator · `Python`
-- **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · Converts EPUBs into M4B audiobooks with a distinct voice per character · `Python` `ChatterBox`
 - **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua`
 - **⚖️ [Verdikt](https://github.com/Stiven-Gjekaj/Verdikt)** · Game-agnostic mod conflict analysis engine using SHA-256 hashing · `Rust` `CLI`
 - **🏎️ [InertiaX](https://github.com/Stiven-Gjekaj/InertiaX)** · Real-time 2D car physics simulator with OpenGL rendering · `C++` `OpenGL`
