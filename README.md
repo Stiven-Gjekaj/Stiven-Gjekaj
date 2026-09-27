@@ -29,7 +29,7 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 ## 🚧 Building Right Now
 
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Metadata recovery from VB6 executables, every fact traced to a byte it read · `Rust` `VB6`
-- **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Cross-platform CLI that writes bootable drives on Windows, macOS, and Linux · `Rust` `CLI`
+- **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux, v1.0 out · `Rust` `CLI`
 
 ---
 
