@@ -29,7 +29,6 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 ## 🚧 Building Right Now
 
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Metadata recovery from VB6 executables, every fact traced to a byte it read · `Rust` `VB6`
-- **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux, v1.0 out · `Rust` `CLI`
 
 ---
 
@@ -49,6 +48,7 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 - **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
 - **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know · `Python` `Local LLM`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
+- **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux, v1.0 out · `Rust` `CLI`
 
 <details>
 <summary><b>🗄️ Fourteen more</b> · apps, games, ML, benchmarks, and tooling</summary>
