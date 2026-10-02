@@ -131,7 +131,6 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Stiven-Gjekaj&theme=tokyonight&hide_border=true&background=00000000&ring=25C3F5&fire=25C3F5&currStreakLabel=25C3F5&sideNums=ffffff&sideLabels=ffffff" alt="streak stats"/>
 
-
 <br><br>
 
 **[Browse all repositories ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
