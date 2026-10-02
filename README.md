@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1b27&height=200&section=header)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Decompilers,+Boot+Drives,+and+Things+That+Run+Offline;Rust+at+the+Core,+Python+at+the+Edge;Nothing+Leaves+Your+Machine;Reproducible+From+a+Seed)](https://git.io/typing-svg)
 
@@ -40,6 +40,7 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 
 ## 🛠️ Selected Work
 
+- **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux, v1.0 out · `Rust` `CLI`
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
 - **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench with Q-learning, SARSA, and policy gradients written from scratch · `Python` `RL`
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter`
@@ -48,7 +49,6 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 - **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
 - **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know · `Python` `Local LLM`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
-- **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux, v1.0 out · `Rust` `CLI`
 
 <details>
 <summary><b>🗄️ Fourteen more</b> · apps, games, ML, benchmarks, and tooling</summary>
@@ -133,7 +133,7 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Stiven-Gjekaj&theme=tokyo-night&hide_border=true" alt="contribution graph"/>
+<img src="https://ghchart.rshah.org/25C3F5/Stiven-Gjekaj" width="100%" alt="contribution graph"/>
 
 <br><br>
 
@@ -146,5 +146,5 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 <div align="center">
 
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:000000&height=200&section=footer)
 </div>
