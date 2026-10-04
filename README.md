@@ -29,6 +29,7 @@ A tool that pulls the forms and control trees back out of a Visual Basic 6 binar
 ## 🚧 Building Right Now
 
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6`
+- **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint`
 
 ---
 
