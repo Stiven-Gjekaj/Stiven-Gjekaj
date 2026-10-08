@@ -2,13 +2,13 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1b27&height=200&section=header)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Decompilers,+Boot+Drives,+and+Things+That+Run+Offline;Rust+at+the+Core,+Python+at+the+Edge;Nothing+Leaves+Your+Machine;Reproducible+From+a+Seed)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Android+Apps,+Boot+Drives,+and+Things+That+Run+Offline;Rust+at+the+Core,+Python+at+the+Edge;Nothing+Leaves+Your+Machine;Reproducible+From+a+Seed)](https://git.io/typing-svg)
 
 ### *"If it's a black box, I want to see inside it."*
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
-A tool that pulls the forms and control trees back out of a Visual Basic 6 binary. A single command that writes a bootable drive the same way on Windows, macOS, and Linux. A job queue that survives its own workers dying. The themes that keep coming back are **local-first**, **zero dependencies**, and runs that **reproduce from a seed**.
+An Android app that puts anime, movies, and TV in one place. A single command that writes a bootable drive the same way on Windows, macOS, and Linux. A job queue that survives its own workers dying. The themes that keep coming back are **local-first**, **zero dependencies**, and runs that **reproduce from a seed**.
 
 <br>
 
