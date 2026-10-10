@@ -29,6 +29,7 @@ An Android app that puts anime, movies, and TV in one place. A single command th
 ## 🚧 Building Right Now
 
 - **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android app for anime, movies, and TV in one place · `Kotlin` `Android`
+- **🖤 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Cross-platform disk health reader that also tests, formats, and erases drives · `Rust` `Slint`
 
 ---
 
