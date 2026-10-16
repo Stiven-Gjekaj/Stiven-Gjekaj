@@ -32,6 +32,9 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v0.1`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.1`
+- **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6`
+- **✍️ [Markdown to Wattpad](https://github.com/Stiven-Gjekaj/markdown-to-wattpad)** · Browser tool that turns Markdown chapters into Wattpad-ready formatting · `TypeScript`
+- **🕯️ [Someone Is Still Paying the Rent](https://github.com/Stiven-Gjekaj/Someone-Is-Still-Paying-the-Rent)** · First-person narrative game about grief, set over one night packing a friend's flat · `TypeScript` `Narrative`
 
 ---
 
