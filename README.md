@@ -32,7 +32,6 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v0.2`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
-- **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6`
 - **📼 [ZettaLite](https://github.com/Stiven-Gjekaj/ZettaLite)** · Small streaming app for a jailbroken iPhone 4S on iOS 6 that plays any HTTP media link · `Objective-C` `iOS 6`
 - **🎵 [Groovelet](https://github.com/Stiven-Gjekaj/Groovelet)** · Music player for a jailbroken iPhone 4S on iOS 6, modern look but light on the A5 · `Objective-C` `iOS 6`
 
@@ -56,6 +55,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know, built from a chat transcript · `Python` `Local LLM` `v1.1`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
 - **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.5`
+- **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6` `v1.0`
 
 <details>
 <summary><b>🗄️ Fourteen more</b> · apps, games, ML, benchmarks, and tooling</summary>
