@@ -2,13 +2,13 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1b27&height=200&section=header)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Disk+Tools,+Decompilers,+and+Things+That+Run+Offline;Same+Build+on+Windows,+macOS,+and+Linux;Rust+at+the+Core,+Python+at+the+Edge;Nothing+Leaves+Your+Machine)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Disk+Tools,+Decompilers,+and+Things+That+Run+Offline;Same+Build+on+Windows,+macOS,+and+Linux;New+Apps+for+a+2011+iPhone;Rust+at+the+Core,+Python+at+the+Edge;Nothing+Leaves+Your+Machine)](https://git.io/typing-svg)
 
 ### *"If it's a black box, I want to see inside it."*
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
-A disk tool that reads what every drive says about its own health, then tests and erases it. One command that gives Windows, macOS, and Linux the tools each one is missing. A tool that pulls the forms back out of a Visual Basic 6 binary. A ticket desk that lives in one SQLite file and looks like 2009. The themes that keep coming back are **local-first**, **one build for every OS**, and **no server, no account**.
+A disk tool that reads what every drive says about its own health, then tests and erases it. One command that gives Windows, macOS, and Linux the tools each one is missing. A tool that pulls the forms back out of a Visual Basic 6 binary. A ticket desk that lives in one SQLite file and looks like 2009. A YouTube client, a streaming app, and a music player for an iPhone 4S that still runs iOS 6. The themes that keep coming back are **local-first**, **one build for every OS**, and **no server, no account**.
 
 <br>
 
