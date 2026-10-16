@@ -28,10 +28,10 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 ## 🚧 Building Right Now
 
-- **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v0.1`
-- **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v0.1`
-- **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6`
-- **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.1`
+- **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v0.2`
+- **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v0.2`
+- **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
+- **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
 - **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6`
 
 ---
@@ -47,13 +47,13 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux · `Rust` `CLI` `v1.0`
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
 - **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench with Q-learning, SARSA, and policy gradients written from scratch · `Python` `RL`
-- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter`
+- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter` `v2.1`
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
-- **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper`
+- **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper` `v0.2`
 - **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
-- **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know, built from a chat transcript · `Python` `Local LLM` `v1.0`
+- **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know, built from a chat transcript · `Python` `Local LLM` `v1.1`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
-- **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.1`
+- **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.5`
 
 <details>
 <summary><b>🗄️ Fourteen more</b> · apps, games, ML, benchmarks, and tooling</summary>
@@ -70,7 +70,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **⏱️ [Clockwise](https://github.com/Stiven-Gjekaj/Clockwise)** · Desktop time-logging and productivity analytics app · `Python`
 - **📝 [MarkdownConverter](https://github.com/Stiven-Gjekaj/MarkdownConverter)** · Markdown and rich-text converter with a hand-drawn aesthetic · `JavaScript`
 - **📚 [WorkDelegateN1ko](https://github.com/Stiven-Gjekaj/WorkDelegateN1ko)** · AI-powered technical documentation generator · `Python`
-- **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua`
+- **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua` `v0.5`
 - **⚖️ [Verdikt](https://github.com/Stiven-Gjekaj/Verdikt)** · Game-agnostic mod conflict analysis engine using SHA-256 hashing · `Rust` `CLI`
 - **🏎️ [InertiaX](https://github.com/Stiven-Gjekaj/InertiaX)** · Real-time 2D car physics simulator with OpenGL rendering · `C++` `OpenGL`
 - **📊 [Telemetra](https://github.com/Stiven-Gjekaj/Telemetra)** · Real-time Twitch analytics pipeline with anomaly detection · `Python` `Kafka`
