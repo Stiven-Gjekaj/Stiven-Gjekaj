@@ -8,7 +8,7 @@
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
-A disk tool that reads what every drive says about its own health, then tests and erases it. One command that gives Windows, macOS, and Linux the tools each one is missing. A tool that pulls the forms back out of a Visual Basic 6 binary. A ticket desk that lives in one SQLite file and looks like 2009. A YouTube client, a streaming app, and a music player for an iPhone 4S that still runs iOS 6. The themes that keep coming back are **local-first**, **one build for every OS**, and **no server, no account**.
+A disk tool that reads what every drive says about its own health, then tests and erases it. A tool that pulls the forms back out of a Visual Basic 6 binary. A ticket desk that lives in one SQLite file and looks like 2009. Before those: one command that gives every OS the tools it is missing, apps for an iPhone 4S still on iOS 6, and a music finder that turns a link into a tagged mp3. The themes that keep coming back are **local-first**, **one build for every OS**, and **no server, no account**.
 
 <br>
 
@@ -31,7 +31,6 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v0.2`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
-- **🐕 [TuneHound](https://github.com/Stiven-Gjekaj/TuneHound)** · Paste a music link and it finds the song, downloads it, and tags the mp3 · `Python` `yt-dlp` `v0.1`
 
 ---
 
@@ -56,8 +55,9 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 - **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.5`
 - **📼 [ZettaLite](https://github.com/Stiven-Gjekaj/ZettaLite)** · Small streaming app for a jailbroken iPhone 4S on iOS 6 that plays any HTTP media link · `Objective-C` `iOS 6` `v1.0.1`
-- **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6` `v1.0.1`
+- **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6` `v1.1.0`
 - **🎵 [Groovelet](https://github.com/Stiven-Gjekaj/Groovelet)** · Music player for a jailbroken iPhone 4S on iOS 6, modern look but light on the A5 · `Objective-C` `iOS 6` `v1.0`
+- **🐕 [TuneHound](https://github.com/Stiven-Gjekaj/TuneHound)** · Paste a music link and it finds the song, downloads it, and tags the mp3 · `Python` `yt-dlp` `v1.0`
 
 ### Games
 
