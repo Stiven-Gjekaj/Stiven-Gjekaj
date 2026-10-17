@@ -32,9 +32,36 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v0.2`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
-- **📼 [ZettaLite](https://github.com/Stiven-Gjekaj/ZettaLite)** · Small streaming app for a jailbroken iPhone 4S on iOS 6 that plays any HTTP media link · `Objective-C` `iOS 6` `v1.0`
-- **🛰️ [ZettaLive](https://github.com/Stiven-Gjekaj/ZettaLive)** · Browser IPTV player for your M3U playlists with an XMLTV guide, on desktop and phone · `TypeScript` `React` `v1.1`
 - **🎵 [Groovelet](https://github.com/Stiven-Gjekaj/Groovelet)** · Music player for a jailbroken iPhone 4S on iOS 6, modern look but light on the A5 · `Objective-C` `iOS 6`
+
+---
+
+## 🛠️ Selected Work
+
+### Tools & Systems
+
+- **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux · `Rust` `CLI` `v1.0`
+- **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
+- **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
+- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter` `v2.1`
+
+### Local AI & ML
+
+- **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know, built from a chat transcript · `Python` `Local LLM` `v1.1`
+- **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper` `v0.2`
+- **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
+- **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench with Q-learning, SARSA, and policy gradients written from scratch · `Python` `RL`
+
+### Streaming
+
+- **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.5`
+- **🛰️ [ZettaLive](https://github.com/Stiven-Gjekaj/ZettaLive)** · Browser IPTV player for your M3U playlists with an XMLTV guide, on desktop and phone · `TypeScript` `React` `v1.1`
+- **📼 [ZettaLite](https://github.com/Stiven-Gjekaj/ZettaLite)** · Small streaming app for a jailbroken iPhone 4S on iOS 6 that plays any HTTP media link · `Objective-C` `iOS 6` `v1.0`
+- **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6` `v1.0.1`
+
+### Games
+
+- **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
 
 ---
 
@@ -44,22 +71,17 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 ---
 
-## 🛠️ Selected Work
+## ⏸️ On Hold
 
-- **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux · `Rust` `CLI` `v1.0`
-- **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
-- **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench with Q-learning, SARSA, and policy gradients written from scratch · `Python` `RL`
-- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter` `v2.1`
-- **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
-- **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper` `v0.2`
-- **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
-- **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know, built from a chat transcript · `Python` `Local LLM` `v1.1`
-- **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
-- **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.5`
-- **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6` `v1.0.1`
+- **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
+- **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · 1v1 turn-based tactical battler built on a fully deterministic simulation core · `TypeScript` `Node.js`
+
+---
+
+## 🗄️ Archive
 
 <details>
-<summary><b>🗄️ Fourteen more</b> · apps, games, ML, benchmarks, and tooling</summary>
+<summary><b>Fourteen older projects</b> · apps, games, ML, benchmarks, and tooling</summary>
 
 <br>
 
@@ -80,12 +102,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 </details>
 
----
-
-## ⏸️ On Hold
-
-- **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
-- **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · 1v1 turn-based tactical battler built on a fully deterministic simulation core · `TypeScript` `Node.js`
+**[Browse all repositories ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
 
 ---
 
@@ -111,17 +128,17 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 <div align="center">
 
-**The Core**
+**Languages**
 
-<img src="https://skillicons.dev/icons?i=python,go,cpp,rust" />
+<img src="https://skillicons.dev/icons?i=python,go,cpp,rust,kotlin" />
 
-**Systems & Low Level**
+**Infrastructure**
 
-<img src="https://skillicons.dev/icons?i=docker,redis,kafka,spring" />
+<img src="https://skillicons.dev/icons?i=docker,redis,kafka,postgres" />
 
-**Web Ecosystem**
+**Apps & Web**
 
-<img src="https://skillicons.dev/icons?i=react,fastapi,postgres" />
+<img src="https://skillicons.dev/icons?i=react,fastapi,spring,androidstudio" />
 
 **Hardware & AI**
 
@@ -138,10 +155,6 @@ A disk tool that reads what every drive says about its own health, then tests an
 <br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Stiven-Gjekaj&theme=tokyonight&hide_border=true&background=00000000&ring=25C3F5&fire=25C3F5&currStreakLabel=25C3F5&sideNums=ffffff&sideLabels=ffffff" alt="streak stats"/>
-
-<br><br>
-
-**[Browse all repositories ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
 
 </div>
 
