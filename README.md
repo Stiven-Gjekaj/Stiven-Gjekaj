@@ -29,10 +29,8 @@ A disk tool that reads what every drive says about its own health, then tests an
 ## 🚧 Building Right Now
 
 - **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v0.2`
-- **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v1.0`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
-- **🎵 [Groovelet](https://github.com/Stiven-Gjekaj/Groovelet)** · Music player for a jailbroken iPhone 4S on iOS 6, modern look but light on the A5 · `Objective-C` `iOS 6`
 
 ---
 
@@ -44,6 +42,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter` `v2.1`
+- **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v1.0`
 
 ### Local AI & ML
 
@@ -52,11 +51,12 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
 - **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench with Q-learning, SARSA, and policy gradients written from scratch · `Python` `RL`
 
-### Streaming
+### Media & Streaming
 
 - **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.5`
 - **📼 [ZettaLite](https://github.com/Stiven-Gjekaj/ZettaLite)** · Small streaming app for a jailbroken iPhone 4S on iOS 6 that plays any HTTP media link · `Objective-C` `iOS 6` `v1.0.1`
 - **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6` `v1.0.1`
+- **🎵 [Groovelet](https://github.com/Stiven-Gjekaj/Groovelet)** · Music player for a jailbroken iPhone 4S on iOS 6, modern look but light on the A5 · `Objective-C` `iOS 6` `v1.0`
 
 ### Games
 
