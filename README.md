@@ -78,34 +78,6 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 ---
 
-## 🗄️ Archive
-
-<details>
-<summary><b>Fourteen older projects</b> · apps, games, ML, benchmarks, and tooling</summary>
-
-<br>
-
-- **🔬 [Knot Labs](https://github.com/Stiven-Gjekaj/Knot-Labs)** · Social platform with media classification and face recognition · `Python` `ML` `FAISS`
-- **💰 [SmartSpend](https://github.com/Stiven-Gjekaj/SmartSpend)** · Finance app with OCR receipt scanning and ML categorization · `FastAPI` `React` `ML`
-- **⚡ [SpeedyFibonacci](https://github.com/Stiven-Gjekaj/SpeedyFibonacci)** · Benchmark of 12 Fibonacci algorithms, O(2^n) to O(log n) · `Python` `Cython` `Numba`
-- **🛡️ [CardVault](https://github.com/Stiven-Gjekaj/CardVault)** · ID card generation with approval workflows and QR-coded PDFs · `Spring Boot` `Java` `MySQL`
-- **📖 [Mnemis](https://github.com/Stiven-Gjekaj/Mnemis-Obsidian-Plugin)** · AI story companion for Obsidian that tracks lore continuity · `TypeScript` `Obsidian`
-- **🎯 [ClutchCoach](https://github.com/Stiven-Gjekaj/ClutchCoach)** · AI-powered CS2 voice coaching assistant · `Python` `AI`
-- **🌌 [Aurora](https://github.com/Stiven-Gjekaj/Aurora)** · Knowledge base builder pulling from Wikipedia and arXiv · `Python`
-- **⏱️ [Clockwise](https://github.com/Stiven-Gjekaj/Clockwise)** · Desktop time-logging and productivity analytics app · `Python`
-- **📝 [MarkdownConverter](https://github.com/Stiven-Gjekaj/MarkdownConverter)** · Markdown and rich-text converter with a hand-drawn aesthetic · `JavaScript`
-- **📚 [WorkDelegateN1ko](https://github.com/Stiven-Gjekaj/WorkDelegateN1ko)** · AI-powered technical documentation generator · `Python`
-- **⚔️ [Soulbound](https://github.com/Stiven-Gjekaj/Soulbound)** · Boss-rush game built on a heavily modified battle-only CYF · `C#` `Unity` `Lua` `v0.5`
-- **⚖️ [Verdikt](https://github.com/Stiven-Gjekaj/Verdikt)** · Game-agnostic mod conflict analysis engine using SHA-256 hashing · `Rust` `CLI`
-- **🏎️ [InertiaX](https://github.com/Stiven-Gjekaj/InertiaX)** · Real-time 2D car physics simulator with OpenGL rendering · `C++` `OpenGL`
-- **📊 [Telemetra](https://github.com/Stiven-Gjekaj/Telemetra)** · Real-time Twitch analytics pipeline with anomaly detection · `Python` `Kafka`
-
-</details>
-
-**[Browse all repositories ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
-
----
-
 ## 🤝 Open Source Contributions
 
 - **📺 [ImprovedTube](https://github.com/code-charity/youtube)** · YouTube extension with 350+ tweaks for playback, UI, and discovery · `JavaScript` `CSS`
@@ -155,6 +127,10 @@ A disk tool that reads what every drive says about its own health, then tests an
 <br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Stiven-Gjekaj&theme=tokyonight&hide_border=true&background=00000000&ring=25C3F5&fire=25C3F5&currStreakLabel=25C3F5&sideNums=ffffff&sideLabels=ffffff" alt="streak stats"/>
+
+<br><br>
+
+**[Browse all repositories ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
 
 </div>
 
