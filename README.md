@@ -55,7 +55,6 @@ A disk tool that reads what every drive says about its own health, then tests an
 ### Streaming
 
 - **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.5`
-- **🛰️ [ZettaLive](https://github.com/Stiven-Gjekaj/ZettaLive)** · Browser IPTV player for your M3U playlists with an XMLTV guide, on desktop and phone · `TypeScript` `React` `v1.1`
 - **📼 [ZettaLite](https://github.com/Stiven-Gjekaj/ZettaLite)** · Small streaming app for a jailbroken iPhone 4S on iOS 6 that plays any HTTP media link · `Objective-C` `iOS 6` `v1.0`
 - **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6` `v1.0.1`
 
