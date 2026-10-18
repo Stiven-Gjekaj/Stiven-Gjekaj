@@ -111,6 +111,19 @@ CUSTOM = {
 }
 
 
+def youtube():
+    # The red play button on the dark tile, like skillicons' Gmail. Simple Icons
+    # cuts the triangle out, so a white triangle sits underneath to fill it.
+    scale, off = 7.5, (256 - 24 * 7.5) / 2
+    t = f'transform="translate({off} {off}) scale({scale})"'
+    return tile(DARK, f'<path fill="#fff" {t} d="M9.545 15.568V8.432L15.818 12z"/>'
+                      f'<path fill="#FF0000" {t} d="{simple_icon_path("youtube")}"/>')
+
+
+# Single icons for the header, written to assets/icons/.
+HEADER = {"youtube": youtube}
+
+
 def row(names):
     vw = len(names) * 300 - 44
     parts = "".join(
@@ -126,3 +139,10 @@ if __name__ == "__main__":
     for key, names in ROWS.items():
         (OUT / f"{key}.svg").write_text(row(names))
         print(f"assets/stack/{key}.svg: {', '.join(names)}")
+    icons = OUT.parent / "icons"
+    icons.mkdir(parents=True, exist_ok=True)
+    for key, make in HEADER.items():
+        (icons / f"{key}.svg").write_text(
+            '<svg width="48" height="48" viewBox="0 0 256 256" fill="none" '
+            f'xmlns="http://www.w3.org/2000/svg">{make()}</svg>')
+        print(f"assets/icons/{key}.svg")
