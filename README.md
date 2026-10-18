@@ -106,19 +106,23 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,go,cpp,rust,kotlin" />
-
-**Infrastructure**
-
-<img src="https://skillicons.dev/icons?i=docker,redis,kafka,postgres" />
+<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, TypeScript, Kotlin, Go, C#" />
 
 **Apps & Web**
 
-<img src="https://skillicons.dev/icons?i=react,fastapi,spring,androidstudio" />
+<img src="assets/stack/apps.svg" alt="React, Vite, WebAssembly, .NET, Slint" />
 
-**Hardware & AI**
+**Graphics & Media**
 
-<img src="https://skillicons.dev/icons?i=arduino,raspberrypi,opencv" />
+<img src="assets/stack/media.svg" alt="OpenGL ES, FFmpeg, Whisper" />
+
+**Data & Infrastructure**
+
+<img src="assets/stack/data.svg" alt="SQLite, PostgreSQL, Redis, Prometheus, Docker, GitHub Actions" />
+
+**Platforms**
+
+<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android" />
 
 </div>
 
