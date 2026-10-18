@@ -34,7 +34,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v0.2`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
-- **🗡️ [Alpharune](https://github.com/Stiven-Gjekaj/AlphaRune)** · Fan demake of DELTARUNE for a jailbroken iPhone 4S, a GML bytecode VM in C, using your own copy's assets · `C` `OpenGL ES` `v0.6`
+- **🗡️ [Alpharune](https://github.com/Stiven-Gjekaj/AlphaRune)** · Fan demake of DELTARUNE for a jailbroken iPhone 4S, a GML bytecode VM in C, using your own copy's assets · `C` `OpenGL ES` `v1.0`
 - **🎥 [RecTunnelX](https://github.com/Stiven-Gjekaj/RecTunnelX)** · Streams a jailbroken iPhone 4S screen to OBS with hardware H.264 over USB or Wi-Fi · `Objective-C` `H.264` `v0.1`
 
 ---
