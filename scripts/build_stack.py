@@ -120,8 +120,50 @@ def youtube():
                       f'<path fill="#FF0000" {t} d="{simple_icon_path("youtube")}"/>')
 
 
+NUM = r"-?(?:\d+\.?\d*|\.\d+)(?:e-?\d+)?"
+ARGS = {"M": 2, "L": 2, "H": 1, "V": 1, "C": 6, "S": 4, "Q": 4, "T": 2, "A": 7, "Z": 0}
+
+
+def last_subpath(d):
+    """The last subpath of `d`, rewritten to start from an absolute point."""
+    toks = re.findall(r"[A-Za-z]|" + NUM, d)
+    x = y = sx = sy = 0.0
+    i, cmd, start = 0, None, (0.0, 0.0)
+    while i < len(toks):
+        if toks[i].isalpha():
+            cmd, i = toks[i], i + 1
+        if cmd in "Zz":
+            x, y = sx, sy
+            continue
+        k = ARGS[cmd.upper()]
+        a = [float(v) for v in toks[i:i + k]]
+        i += k
+        rel, c = cmd.islower(), cmd.upper()
+        if c == "M":
+            x, y = (x + a[0], y + a[1]) if rel else (a[0], a[1])
+            sx, sy, start = x, y, (x, y)
+            cmd = "l" if rel else "L"
+        elif c == "H":
+            x = x + a[0] if rel else a[0]
+        elif c == "V":
+            y = y + a[0] if rel else a[0]
+        else:
+            x, y = (x + a[-2], y + a[-1]) if rel else (a[-2], a[-1])
+    tail = re.split(r"(?=[Mm])", d)[-1]
+    m = re.match(r"[Mm]\s*" + NUM + r"\s*,?\s*" + NUM, tail)
+    return f"M{start[0]:.3f} {start[1]:.3f}" + tail[m.end():]
+
+
+def kofi():
+    # A white cup with a red heart, as in Ko-fi's own logo. The heart is the
+    # last subpath of the Simple Icons glyph, drawn again on top in red.
+    d = simple_icon_path("kofi")
+    t = f'transform="translate({(256 - 24 * 7.5) / 2} {(256 - 24 * 7.5) / 2}) scale(7.5)"'
+    return tile(DARK, f'<path fill="#fff" {t} d="{d}"/><path fill="#FF5E5B" {t} d="{last_subpath(d)}"/>')
+
+
 # Single icons for the header, written to assets/icons/.
-HEADER = {"youtube": youtube}
+HEADER = {"youtube": youtube, "kofi": kofi}
 
 
 def row(names):
