@@ -33,7 +33,6 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
 - **🃏 [Balatro4S](https://github.com/Stiven-Gjekaj/balatro4S)** · Fan demake of Balatro for a jailbroken iPhone 4S, rewritten in C with OpenGL ES, using your own copy's assets · `C` `Objective-C` `OpenGL ES` `v0.10`
 - **🏰 [FortOS](https://github.com/Stiven-Gjekaj/FortOS)** · Fan demake of GANGFORT for a jailbroken iPhone 4S, offline matches against bots at 60 fps, using your own copy's assets · `C` `OpenGL ES` `v0.7`
-- **📦 [Cydia Repo](https://github.com/Stiven-Gjekaj/cydia)** · Package repository that ships my iPhone 4S apps to jailbroken devices · `APT` `GitHub Pages`
 
 ---
 
