@@ -22,11 +22,11 @@ OUT = Path(__file__).resolve().parent.parent / "assets" / "stack"
 # Each row: file name -> icons, left to right. Names are skillicons ids,
 # or one of the custom tiles defined further down.
 ROWS = {
-    "languages": ["rust", "python", "c", "objc", "ts", "kotlin", "go", "cs"],
+    "languages": ["rust", "python", "c", "objc", "ts", "kotlin", "java", "go", "cs"],
     "apps": ["react", "vite", "wasm", "dotnet", "slint"],
     "media": ["opengles", "ffmpeg", "whisper"],
-    "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "githubactions"],
-    "platforms": ["windows", "apple", "linux", "androidstudio"],
+    "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "gradle", "githubactions"],
+    "platforms": ["windows", "apple", "linux", "androidstudio", "minecraft"],
 }
 
 DARK = "#242938"  # the dark tile colour skillicons uses
@@ -101,7 +101,19 @@ def whisper():
         f'rx="{bw / 2}" fill="#fff"/>' for i, h in enumerate(bars)))
 
 
+def minecraft():
+    # An original grass block on the dark tile; Mojang's logo is not used.
+    top = "128,46 208,92 128,138 48,92"
+    return tile(DARK,
+                f'<polygon points="{top}" fill="#7CBD3B"/>'
+                '<polygon points="48,92 128,138 128,214 48,168" fill="#8B5A2B"/>'
+                '<polygon points="208,92 128,138 128,214 208,168" fill="#6B4320"/>'
+                '<polygon points="48,92 128,138 128,162 112,154 96,160 80,146 64,150 48,132" fill="#5E9E2E"/>'
+                '<polygon points="208,92 128,138 128,162 144,152 160,158 176,144 192,148 208,130" fill="#4A8424"/>')
+
+
 CUSTOM = {
+    "minecraft": minecraft,
     "objc": objc,
     "slint": lambda: glyph_tile("slint", "#2379F4"),
     "ffmpeg": lambda: glyph_tile("ffmpeg", "#007808"),

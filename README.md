@@ -107,7 +107,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 **Languages**
 
-<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, TypeScript, Kotlin, Go, C#" />
+<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, TypeScript, Kotlin, Java, Go, C#" />
 
 **Apps & Web**
 
@@ -119,11 +119,11 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 **Data & Infrastructure**
 
-<img src="assets/stack/data.svg" alt="SQLite, PostgreSQL, Redis, Prometheus, Docker, GitHub Actions" />
+<img src="assets/stack/data.svg" alt="SQLite, PostgreSQL, Redis, Prometheus, Docker, Gradle, GitHub Actions" />
 
 **Platforms**
 
-<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android" />
+<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, Minecraft" />
 
 </div>
 
