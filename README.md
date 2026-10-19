@@ -18,9 +18,6 @@ A disk tool that reads what every drive says about its own health, then tests an
 <a href="https://www.linkedin.com/in/stiven-gjekaj">
 <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/>
 </a>
-<a href="https://www.youtube.com/@n1cetryexists">
-<img src="assets/icons/youtube.svg" alt="YouTube"/>
-</a>
 <a href="https://ko-fi.com/stivengjekaj">
 <img src="assets/icons/kofi.svg" alt="Ko-fi"/>
 </a>

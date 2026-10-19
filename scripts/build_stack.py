@@ -163,7 +163,7 @@ def kofi():
 
 
 # Single icons for the header, written to assets/icons/.
-HEADER = {"youtube": youtube, "kofi": kofi}
+HEADER = {"kofi": kofi}  # youtube() is kept above if you want it back
 
 
 def row(names):
