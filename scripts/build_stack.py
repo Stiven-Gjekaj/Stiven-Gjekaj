@@ -26,7 +26,7 @@ ROWS = {
     "apps": ["react", "vite", "wasm", "dotnet", "slint"],
     "media": ["opengles", "ffmpeg", "whisper"],
     "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "gradle", "githubactions"],
-    "platforms": ["windows", "apple", "linux", "androidstudio", "minecraft"],
+    "platforms": ["windows", "apple", "linux", "androidstudio", "minecraft", "fabric"],
 }
 
 DARK = "#242938"  # the dark tile colour skillicons uses
@@ -112,8 +112,21 @@ def minecraft():
                 '<polygon points="208,92 128,138 128,162 144,152 160,158 176,144 192,148 208,130" fill="#4A8424"/>')
 
 
+def fabric():
+    # A tilted cloth patch with a stitched border, in Fabric's tan and brown.
+    weave = "".join(f'<path d="M{x} 58V198" stroke="#C9BC9C" stroke-width="7"/>' for x in range(74, 190, 18))
+    return tile(DARK,
+                '<g transform="rotate(-45 128 128)">'
+                '<rect x="50" y="50" width="156" height="156" rx="20" fill="#DBD0B4" stroke="#38342A" stroke-width="13"/>'
+                f'{weave}'
+                '<rect x="73" y="73" width="110" height="110" rx="10" fill="none" stroke="#38342A" '
+                'stroke-width="9" stroke-dasharray="15 11" stroke-linecap="round"/>'
+                '</g>')
+
+
 CUSTOM = {
     "minecraft": minecraft,
+    "fabric": fabric,
     "objc": objc,
     "slint": lambda: glyph_tile("slint", "#2379F4"),
     "ffmpeg": lambda: glyph_tile("ffmpeg", "#007808"),

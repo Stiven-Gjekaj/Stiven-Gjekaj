@@ -123,7 +123,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 **Platforms**
 
-<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, Minecraft" />
+<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, Minecraft, Fabric" />
 
 </div>
 
