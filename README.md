@@ -34,7 +34,6 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v0.2`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
-- **🎥 [RecTunnelX](https://github.com/Stiven-Gjekaj/RecTunnelX)** · Streams a jailbroken iPhone 4S screen to OBS with hardware H.264 over USB or Wi-Fi · `Objective-C` `H.264` `v0.2`
 
 ---
 
@@ -62,6 +61,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6` `v1.2.0`
 - **🎵 [Groovelet](https://github.com/Stiven-Gjekaj/Groovelet)** · Music player for a jailbroken iPhone 4S on iOS 6, modern look but light on the A5 · `Objective-C` `iOS 6` `v1.0.2`
 - **🐕 [TuneHound](https://github.com/Stiven-Gjekaj/TuneHound)** · Paste a music link and it finds the song, downloads it, and tags the mp3 · `Python` `yt-dlp` `v1.1.1`
+- **🎥 [RecTunnelX](https://github.com/Stiven-Gjekaj/RecTunnelX)** · Streams a jailbroken iPhone 4S screen to OBS with hardware H.264 over USB or Wi-Fi · `Objective-C` `H.264` `v0.2`
 
 ### Games
 
