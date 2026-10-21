@@ -12,6 +12,7 @@ Edit ROWS below to change the stack, then commit the files in assets/stack/.
 Only the Python standard library is needed. It downloads icons from
 skillicons.dev and cdn.simpleicons.org.
 """
+import base64
 import re
 import time
 import urllib.request
@@ -187,24 +188,33 @@ def kofi():
     return tile(DARK, f'<path fill="#fff" {t} d="{d}"/><path fill="#FF5E5B" {t} d="{last_subpath(d)}"/>')
 
 
+SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"
+
+
 def cydia():
-    # An open cardboard box, after Cydia's brown-box look; not Cydia's logo.
-    return tile(DARK,
-                '<polygon points="128,112 204,86 204,170 128,200" fill="#8A5A2E"/>'
-                '<polygon points="128,112 52,86 52,170 128,200" fill="#B07A43"/>'
-                '<polygon points="52,86 128,60 204,86 128,112" fill="#4A2F17"/>'
-                '<polygon points="52,86 128,112 104,138 28,112" fill="#C99456"/>'
-                '<polygon points="204,86 128,112 152,138 228,112" fill="#A26C38"/>'
-                '<path d="M74 150L108 162" stroke="#4A2F17" stroke-width="9" stroke-linecap="round"/>')
+    # Cydia's own logo (from Wikipedia), embedded and clipped to the tile shape.
+    png = base64.b64encode((SRC / "cydia-logo.png").read_bytes()).decode()
+    return ('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
+            'width="256" height="256" viewBox="0 0 256 256"><defs><clipPath id="cydia-tile">'
+            '<rect width="256" height="256" rx="60"/></clipPath></defs>'
+            f'<image width="256" height="256" clip-path="url(#cydia-tile)" '
+            f'href="data:image/png;base64,{png}" xlink:href="data:image/png;base64,{png}"/></svg>')
 
 
 def sidestore():
-    # A phone with an arrow dropping into it, for sideloading; not SideStore's logo.
-    return tile(DARK,
-                '<rect x="76" y="40" width="104" height="176" rx="20" fill="none" stroke="#fff" stroke-width="12"/>'
-                '<path d="M112 196H144" stroke="#fff" stroke-width="10" stroke-linecap="round"/>'
-                '<path d="M128 76V146M100 120L128 148L156 120" stroke="#A67CF3" stroke-width="16" '
-                'stroke-linecap="round" stroke-linejoin="round" fill="none"/>')
+    # SideStore's own glyph (from sidestore.io) on its cyan-to-magenta gradient.
+    paths = "".join(f'<path d="{d}"/>' for d in
+                    re.findall(r' d="([^"]+)"', (SRC / "sidestore-glyph.svg").read_text()))
+    return ('<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">'
+            '<defs><linearGradient id="ss-bg" x1="0" y1="0" x2="1" y2="0">'
+            '<stop offset="0" stop-color="#07DAF9"/><stop offset="0.5" stop-color="#6A6CF6"/>'
+            '<stop offset="1" stop-color="#DC05F9"/></linearGradient>'
+            '<linearGradient id="ss-shade" x1="0" y1="0" x2="0" y2="1">'
+            '<stop offset="0" stop-color="#000" stop-opacity="0"/>'
+            '<stop offset="1" stop-color="#000" stop-opacity="0.12"/></linearGradient></defs>'
+            '<rect width="256" height="256" rx="60" fill="url(#ss-bg)"/>'
+            '<rect width="256" height="256" rx="60" fill="url(#ss-shade)"/>'
+            f'<g fill="#fff" transform="translate(53 53) scale(0.75)">{paths}</g></svg>')
 
 
 # Single icons for the header, written to assets/icons/.

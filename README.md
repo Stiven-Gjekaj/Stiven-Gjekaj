@@ -21,6 +21,12 @@ A disk tool that reads what every drive says about its own health, then tests an
 <a href="https://ko-fi.com/stivengjekaj">
 <img src="assets/icons/kofi.svg" alt="Ko-fi"/>
 </a>
+<a href="https://stiven-gjekaj.github.io/cydia/">
+<img src="assets/icons/cydia.svg" alt="My Cydia repo"/>
+</a>
+<a href="https://github.com/Stiven-Gjekaj/sidestore-source">
+<img src="assets/icons/sidestore.svg" alt="My SideStore source"/>
+</a>
 
 </div>
 
@@ -68,22 +74,6 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🃏 [Balatro4S](https://github.com/Stiven-Gjekaj/balatro4S)** · Fan demake of Balatro for a jailbroken iPhone 4S, rewritten in C with OpenGL ES, using your own copy's assets · `C` `Objective-C` `OpenGL ES` `v1.0`
 - **🏰 [FortOS](https://github.com/Stiven-Gjekaj/FortOS)** · Fan demake of GANGFORT for a jailbroken iPhone 4S, offline matches against bots at 60 fps, using your own copy's assets · `C` `OpenGL ES` `v1.0`
 - **🗡️ [Alpharune](https://github.com/Stiven-Gjekaj/AlphaRune)** · Fan demake of DELTARUNE for a jailbroken iPhone 4S, a GML bytecode VM in C, using your own copy's assets · `C` `OpenGL ES` `v1.0`
-
----
-
-## 📦 Get My iOS Apps
-
-<div align="center">
-
-<a href="https://stiven-gjekaj.github.io/cydia/"><img src="assets/icons/cydia.svg" width="64" alt="Cydia repo"/></a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/Stiven-Gjekaj/sidestore-source"><img src="assets/icons/sidestore.svg" width="64" alt="SideStore source"/></a>
-
-**[Cydia repo](https://stiven-gjekaj.github.io/cydia/)** for jailbroken iPhones · **[SideStore / AltStore source](https://github.com/Stiven-Gjekaj/sidestore-source)** for any iPhone
-
-`https://stiven-gjekaj.github.io/sidestore-source/apps.json`
-
-</div>
 
 ---
 
