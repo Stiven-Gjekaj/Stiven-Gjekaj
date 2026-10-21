@@ -71,6 +71,22 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 ---
 
+## 📦 Get My iOS Apps
+
+<div align="center">
+
+<a href="https://stiven-gjekaj.github.io/cydia/"><img src="assets/icons/cydia.svg" width="64" alt="Cydia repo"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/Stiven-Gjekaj/sidestore-source"><img src="assets/icons/sidestore.svg" width="64" alt="SideStore source"/></a>
+
+**[Cydia repo](https://stiven-gjekaj.github.io/cydia/)** for jailbroken iPhones · **[SideStore / AltStore source](https://github.com/Stiven-Gjekaj/sidestore-source)** for any iPhone
+
+`https://stiven-gjekaj.github.io/sidestore-source/apps.json`
+
+</div>
+
+---
+
 ## 📖 Writing
 
 - **📚 [Soultale](https://readsoultale.com)** · Serialized saga in fifteen acts across 321 chapters, the universe behind Soulbound and PacketBrawl
