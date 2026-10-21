@@ -24,7 +24,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 <a href="https://stiven-gjekaj.github.io/cydia/">
 <img src="assets/icons/cydia.svg" alt="My Cydia repo"/>
 </a>
-<a href="https://github.com/Stiven-Gjekaj/sidestore-source">
+<a href="https://stiven-gjekaj.github.io/sidestore-source/">
 <img src="assets/icons/sidestore.svg" alt="My SideStore source"/>
 </a>
 
