@@ -15,7 +15,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 <a href="mailto:stivenagostingjekaj@gmail.com">
 <img src="https://skillicons.dev/icons?i=gmail" alt="Email"/>
 </a>
-<a href="https://www.linkedin.com/in/stiven-gjekaj">
+<a href="https://www.linkedin.com/in/stivengjekaj">
 <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/>
 </a>
 <a href="https://ko-fi.com/stivengjekaj">
