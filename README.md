@@ -108,7 +108,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 **Languages**
 
-<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, TypeScript, Kotlin, Java, Go, C#" />
+<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, Kotlin, Java, Go, C#" />
 
 **Apps & Web**
 

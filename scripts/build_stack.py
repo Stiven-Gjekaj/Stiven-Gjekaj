@@ -22,7 +22,7 @@ OUT = Path(__file__).resolve().parent.parent / "assets" / "stack"
 # Each row: file name -> icons, left to right. Names are skillicons ids,
 # or one of the custom tiles defined further down.
 ROWS = {
-    "languages": ["rust", "python", "c", "objc", "ts", "kotlin", "java", "go", "cs"],
+    "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "java", "go", "cs"],
     "apps": ["react", "vite", "wasm", "dotnet", "slint"],
     "media": ["opengles", "ffmpeg", "whisper"],
     "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "gradle", "githubactions"],
