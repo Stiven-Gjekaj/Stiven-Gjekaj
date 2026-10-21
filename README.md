@@ -38,7 +38,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
 - **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Minecraft mod where mobs evolve based on how you kill them · `Java` `Minecraft`
-- **📲 [ZettaStream for iOS](https://github.com/Stiven-Gjekaj/ZettaStreamIOS)** · iPhone and iPad version of ZettaStream that plays your Stremio addons and IPTV playlists · `Swift` `SwiftUI` `v0.1.1`
+- **📲 [ZettaStream for iOS](https://github.com/Stiven-Gjekaj/ZettaStreamIOS)** · iPhone and iPad version of ZettaStream that plays your Stremio addons and IPTV playlists · `Swift` `SwiftUI` `v1.0.0`
 
 ---
 
@@ -55,13 +55,13 @@ A disk tool that reads what every drive says about its own health, then tests an
 ### Local AI & ML
 
 - **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know, built from a chat transcript · `Python` `Local LLM` `v1.1`
-- **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper` `v0.2`
+- **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper` `v0.2.0.3`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
 - **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench with Q-learning, SARSA, and policy gradients written from scratch · `Python` `RL`
 
 ### Media & Streaming
 
-- **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.5`
+- **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.5.1`
 - **📼 [ZettaLite](https://github.com/Stiven-Gjekaj/ZettaLite)** · Small streaming app for a jailbroken iPhone 4S on iOS 6 that plays any HTTP media link · `Objective-C` `iOS 6` `v1.1.0`
 - **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6` `v1.2.0`
 - **🎵 [Groovelet](https://github.com/Stiven-Gjekaj/Groovelet)** · Music player for a jailbroken iPhone 4S on iOS 6, modern look but light on the A5 · `Objective-C` `iOS 6` `v1.0.2`
