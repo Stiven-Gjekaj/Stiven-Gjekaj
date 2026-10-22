@@ -50,6 +50,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter` `v2.1`
 - **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v1.0`
+- **🎓 [Polytechnium](https://github.com/Stiven-Gjekaj/polytechnium)** · iPhone app for UPT students that reads the faculty timetable PDF and tracks grades, exams, and deadlines · `Swift` `SwiftUI` `v2.0`
 
 ### Local AI & ML
 
