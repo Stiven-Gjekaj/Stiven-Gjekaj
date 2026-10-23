@@ -10,24 +10,28 @@ Usage, from the repository root:
 
 Edit ROWS below to change the stack, then commit the files in assets/stack/.
 Only the Python standard library is needed. It downloads icons from
-skillicons.dev and cdn.simpleicons.org.
+skillicons.dev and cdn.simpleicons.org, and reads the vendored logos in
+assets/icons/src/.
 """
 import base64
 import re
+import struct
 import time
 import urllib.request
+import zlib
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "assets" / "stack"
+SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # vendored logos
 
 # Each row: file name -> icons, left to right. Names are skillicons ids,
 # or one of the custom tiles defined further down.
 ROWS = {
     "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "java", "go", "cs"],
-    "apps": ["react", "vite", "wasm", "dotnet", "slint"],
+    "apps": ["react", "vite", "wasm", "dotnet", "slint", "swiftui", "compose"],
     "media": ["opengles", "ffmpeg", "whisper"],
     "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "gradle", "githubactions"],
-    "platforms": ["windows", "apple", "linux", "androidstudio", "minecraft", "fabric"],
+    "platforms": ["windows", "apple", "linux", "android", "minecraft", "fabric"],
 }
 
 DARK = "#242938"  # the dark tile colour skillicons uses
@@ -102,32 +106,120 @@ def whisper():
         f'rx="{bw / 2}" fill="#fff"/>' for i, h in enumerate(bars)))
 
 
+def png_pixels(path):
+    """Width, height, and RGBA rows of a small PNG (palette or RGBA, no interlace)."""
+    data = path.read_bytes()
+    pos, idat, plte, trns = 8, b"", b"", b""
+    while pos < len(data):
+        n, kind = struct.unpack(">I4s", data[pos:pos + 8])
+        body = data[pos + 8:pos + 8 + n]
+        pos += n + 12
+        if kind == b"IHDR":
+            w, h, depth, ctype = struct.unpack(">IIBB", body[:10])
+        elif kind == b"PLTE":
+            plte = body
+        elif kind == b"tRNS":
+            trns = body
+        elif kind == b"IDAT":
+            idat += body
+    raw = zlib.decompress(idat)
+    bpp = {3: depth / 8, 6: 4}[ctype]
+    stride = int(-(-w * bpp // 1))
+    step = max(1, int(bpp))
+    rows, prev, i = [], bytearray(stride), 0
+    for _ in range(h):
+        f, line = raw[i], bytearray(raw[i + 1:i + 1 + stride])
+        i += 1 + stride
+        for x in range(stride):
+            a = line[x - step] if x >= step else 0
+            b, c = prev[x], prev[x - step] if x >= step else 0
+            if f == 1:
+                line[x] = (line[x] + a) & 255
+            elif f == 2:
+                line[x] = (line[x] + b) & 255
+            elif f == 3:
+                line[x] = (line[x] + (a + b) // 2) & 255
+            elif f == 4:
+                pa, pb, pc = abs(b - c), abs(a - c), abs(a + b - 2 * c)
+                line[x] = (line[x] + (a if pa <= pb and pa <= pc else b if pb <= pc else c)) & 255
+        prev = line
+        if ctype == 6:
+            rows.append([tuple(line[x * 4:x * 4 + 4]) for x in range(w)])
+        else:
+            per = 8 // depth
+            idx = [(line[x // per] >> (8 - depth * (x % per + 1))) & ((1 << depth) - 1) for x in range(w)]
+            rows.append([(*plte[k * 3:k * 3 + 3], trns[k] if k < len(trns) else 255) for k in idx])
+    return w, h, rows
+
+
+def pixel_art(path, size):
+    """A pixel-art PNG as crisp SVG rects, centred in the tile and `size` units tall."""
+    w, h, rows = png_pixels(path)
+    px = size / h
+    x0, y0 = (256 - w * px) / 2, (256 - h * px) / 2
+    out = []
+    for y, line in enumerate(rows):
+        x = 0
+        while x < w:
+            r, g, b, a = line[x]
+            run = 1
+            while x + run < w and line[x + run] == line[x]:
+                run += 1
+            if a:
+                op = "" if a == 255 else f' fill-opacity="{a / 255:.2f}"'
+                out.append(f'<rect x="{x0 + x * px:.2f}" y="{y0 + y * px:.2f}" width="{run * px + 0.05:.2f}" '
+                           f'height="{px + 0.05:.2f}" fill="#{r:02X}{g:02X}{b:02X}"{op}/>')
+            x += run
+    return "".join(out)
+
+
+def embedded(path, kind, x, y, size, clip=None):
+    """A raster image from SRC, embedded as base64."""
+    data = base64.b64encode((SRC / path).read_bytes()).decode()
+    cp = f' clip-path="url(#{clip})"' if clip else ""
+    return (f'<image x="{x}" y="{y}" width="{size}" height="{size}"{cp} '
+            f'href="data:image/{kind};base64,{data}" xlink:href="data:image/{kind};base64,{data}"/>')
+
+
 def minecraft():
-    # An original grass block on the dark tile; Mojang's logo is not used.
-    top = "128,46 208,92 128,138 48,92"
-    return tile(DARK,
-                f'<polygon points="{top}" fill="#7CBD3B"/>'
-                '<polygon points="48,92 128,138 128,214 48,168" fill="#8B5A2B"/>'
-                '<polygon points="208,92 128,138 128,214 208,168" fill="#6B4320"/>'
-                '<polygon points="48,92 128,138 128,162 112,154 96,160 80,146 64,150 48,132" fill="#5E9E2E"/>'
-                '<polygon points="208,92 128,138 128,162 144,152 160,158 176,144 192,148 208,130" fill="#4A8424"/>')
+    # Minecraft's own grass block render (from minecraft.wiki) on the dark tile.
+    return tile(DARK, embedded("minecraft-grass-block.png", "png", 40, 40, 176))
 
 
 def fabric():
-    # A tilted cloth patch with a stitched border, in Fabric's tan and brown.
-    weave = "".join(f'<path d="M{x} 58V198" stroke="#C9BC9C" stroke-width="7"/>' for x in range(74, 190, 18))
-    return tile(DARK,
-                '<g transform="rotate(-45 128 128)">'
-                '<rect x="50" y="50" width="156" height="156" rx="20" fill="#DBD0B4" stroke="#38342A" stroke-width="13"/>'
-                f'{weave}'
-                '<rect x="73" y="73" width="110" height="110" rx="10" fill="none" stroke="#38342A" '
-                'stroke-width="9" stroke-dasharray="15 11" stroke-linecap="round"/>'
-                '</g>')
+    # Fabric's own logo (from fabricmc.net), pixel for pixel, on the dark tile.
+    return tile(DARK, pixel_art(SRC / "fabric-logo.png", 180))
+
+
+def android():
+    # The Android robot head from Simple Icons, in Android green, on the dark tile.
+    return glyph_tile("android", DARK, scale=7.5).replace('fill="#fff"', 'fill="#3DDC84"')
+
+
+def swiftui():
+    # Apple's own SwiftUI icon (from developer.apple.com), clipped to the tile shape.
+    return ('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" '
+            'height="256" viewBox="0 0 256 256"><defs><clipPath id="swiftui-tile">'
+            '<rect width="256" height="256" rx="60"/></clipPath></defs>'
+            f'{embedded("swiftui-tile.jpg", "jpeg", 0, 0, 256, clip="swiftui-tile")}</svg>')
+
+
+def compose():
+    # The Jetpack Compose logo (from developer.android.com) on the dark tile. Its ids
+    # get a prefix so they cannot clash with other icons in the same row.
+    src = (SRC / "compose-logo.svg").read_text()
+    src = re.sub(r'id="(\w)"', r'id="compose-\1"', src)
+    src = re.sub(r'url\(#(\w)\)', r'url(#compose-\1)', src)
+    inner = src[src.index(">") + 1:src.rindex("</svg>")]
+    return tile(DARK, f'<svg x="12" y="12" width="232" height="232" viewBox="40 40 400 400">{inner}</svg>')
 
 
 CUSTOM = {
     "minecraft": minecraft,
     "fabric": fabric,
+    "android": android,
+    "swiftui": swiftui,
+    "compose": compose,
     "objc": objc,
     "slint": lambda: glyph_tile("slint", "#2379F4"),
     "ffmpeg": lambda: glyph_tile("ffmpeg", "#007808"),
@@ -186,9 +278,6 @@ def kofi():
     d = simple_icon_path("kofi")
     t = f'transform="translate({(256 - 24 * 7.5) / 2} {(256 - 24 * 7.5) / 2}) scale(7.5)"'
     return tile(DARK, f'<path fill="#fff" {t} d="{d}"/><path fill="#FF5E5B" {t} d="{last_subpath(d)}"/>')
-
-
-SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"
 
 
 def cydia():
