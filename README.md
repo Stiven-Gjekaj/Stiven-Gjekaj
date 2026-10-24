@@ -39,6 +39,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
 - **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Minecraft mod where mobs evolve based on how you kill them · `Java` `Minecraft`
 - **🌸 [Moekoma](https://github.com/Stiven-Gjekaj/Moekoma)** · Manga, comic, and light novel reader for Android and e-ink devices that reads your files and community sources · `Kotlin` `Compose` `v0.15`
+- **🌿 [Fernstone](https://github.com/Stiven-Gjekaj/fernstone)** · Native Minecraft Alpha and Beta multiplayer client for the iPhone 4S on iOS 6, newer iPhones, and the Mac · `C` `OpenGL ES`
 
 ---
 
