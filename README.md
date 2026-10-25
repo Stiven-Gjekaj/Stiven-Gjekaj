@@ -2,13 +2,13 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1b27&height=200&section=header)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Disk+Tools,+Decompilers,+and+Things+That+Run+Offline;Same+Build+on+Windows,+macOS,+and+Linux;New+Apps+for+a+2011+iPhone;Rust+at+the+Core,+Python+at+the+Edge;Nothing+Leaves+Your+Machine)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=700&size=24&pause=1000&color=25C3F5&center=true&vCenter=true&width=650&lines=Disk+Tools,+Decompilers,+and+Things+That+Run+Offline;Same+Build+on+Windows,+macOS,+and+Linux;New+Apps+for+a+2011+iPhone;One+App+on+Every+Screen;Nothing+Leaves+Your+Machine)](https://git.io/typing-svg)
 
 ### *"If it's a black box, I want to see inside it."*
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
-A disk tool that reads what every drive says about its own health, then tests and erases it. A tool that pulls the forms back out of a Visual Basic 6 binary. A ticket desk that lives in one SQLite file and looks like 2009. Before those: one command that gives every OS the tools it is missing, apps for an iPhone 4S still on iOS 6, and a music finder that turns a link into a tagged mp3. The themes that keep coming back are **local-first**, **one build for every OS**, and **no server, no account**.
+A disk tool that reads what every drive says about its own health, then tests and erases it. A tool that pulls the forms back out of a Visual Basic 6 binary. A ticket desk that lives in one SQLite file and looks like 2009. Before those: one streaming app on Android TV, iPhone, and desktop, manga readers for iPhone and e-ink, a Minecraft Beta client and new apps for an iPhone 4S still on iOS 6, and one command that gives every OS the tools it is missing. The themes that keep coming back are **local-first**, **one build for every OS**, and **no server, no account**.
 
 <br>
 
@@ -37,7 +37,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v0.2`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
-- **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Minecraft mod where mobs evolve based on how you kill them · `Java` `Minecraft`
+- **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Fabric mod where mobs evolve from how you kill them, and you pick adaptations to counter them · `Java` `Minecraft`
 
 ---
 
@@ -48,27 +48,27 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux · `Rust` `CLI` `v1.0`
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
-- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically-typed scripting language with a tree-walking interpreter · `Rust` `Interpreter` `v2.1`
+- **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically typed scripting language compiled to bytecode and run on a stack VM · `Rust` `Bytecode VM` `v2.1`
 - **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v1.0`
-- **🎓 [Polytechnium](https://github.com/Stiven-Gjekaj/polytechnium)** · iPhone app for UPT students that reads the faculty timetable PDF and tracks grades, exams, and deadlines · `Swift` `SwiftUI` `v2.0.1`
+- **🎓 [Polytechnium](https://github.com/Stiven-Gjekaj/polytechnium)** · iPhone and iPad app for UPT students that reads the faculty timetable PDF and tracks grades, exams, and deadlines · `Swift` `SwiftUI` `v2.0.1`
 
 ### Local AI & ML
 
 - **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know, built from a chat transcript · `Python` `Local LLM` `v1.1`
 - **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper` `v0.2.0.3`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
-- **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench with Q-learning, SARSA, and policy gradients written from scratch · `Python` `RL`
+- **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench in the terminal, with 25 environments and 43 agents written from scratch · `Python` `RL`
 
 ### Media & Streaming
 
-- **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Android TV and phone app that plays your Stremio addons and IPTV playlists in one place · `Kotlin` `Android TV` `v1.7.0`
+- **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Anime, movies, series, and live TV on Android TV and phones, from your Stremio addons and IPTV playlists · `Kotlin` `Android TV` `v1.7.0`
 - **📲 [ZettaStream for iOS](https://github.com/Stiven-Gjekaj/ZettaStreamIOS)** · iPhone and iPad version of ZettaStream that plays your Stremio addons and IPTV playlists · `Swift` `SwiftUI` `v1.0.1`
 - **🖥️ [ZettaStream Desktop](https://github.com/Stiven-Gjekaj/ZettaDesktop)** · Windows, macOS, and Linux version of ZettaStream that plays your Stremio addons and IPTV playlists · `Kotlin` `Compose` `v1.1`
 - **🌅 [Asabunko](https://github.com/Stiven-Gjekaj/Asabunko)** · Manga, comic, and light novel reader for iPhone and iPad that reads your files and community sources · `Swift` `SwiftUI` `v3.0.0`
-- **🌸 [Moekoma](https://github.com/Stiven-Gjekaj/Moekoma)** · Manga, comic, and light novel reader for Android and e-ink devices that reads your files and community sources · `Kotlin` `Compose` `v2.1`
-- **📼 [ZettaLite](https://github.com/Stiven-Gjekaj/ZettaLite)** · Small streaming app for a jailbroken iPhone 4S on iOS 6 that plays any HTTP media link · `Objective-C` `iOS 6` `v1.1.0`
+- **🌸 [Moekoma](https://github.com/Stiven-Gjekaj/Moekoma)** · Android version of Asabunko for phones, tablets, and e-ink readers such as the Onyx Boox · `Kotlin` `Compose` `v2.1`
+- **📼 [ZettaLite](https://github.com/Stiven-Gjekaj/ZettaLite)** · ZettaStream for a jailbroken iPhone 4S on iOS 6, with Stremio addons, IPTV, and FFmpeg on the phone · `Objective-C` `iOS 6` `v1.1.0`
 - **📱 [RetroTube](https://github.com/Stiven-Gjekaj/RetroTube)** · YouTube client for a jailbroken iPhone 4S on iOS 6, with no outside server · `Objective-C` `iOS 6` `v1.2.0`
-- **🎵 [Groovelet](https://github.com/Stiven-Gjekaj/Groovelet)** · Music player for a jailbroken iPhone 4S on iOS 6, modern look but light on the A5 · `Objective-C` `iOS 6` `v1.0.2`
+- **🎵 [Groovelet](https://github.com/Stiven-Gjekaj/Groovelet)** · Gapless music player for a jailbroken iPhone 4S on iOS 6, modern look but light on the A5 · `Objective-C` `iOS 6` `v1.0.2`
 - **🐕 [TuneHound](https://github.com/Stiven-Gjekaj/TuneHound)** · Paste a music link and it finds the song, downloads it, and tags the mp3 · `Python` `yt-dlp` `v1.1.1`
 - **🎥 [RecTunnelX](https://github.com/Stiven-Gjekaj/RecTunnelX)** · Streams a jailbroken iPhone 4S screen to OBS with hardware H.264 over USB or Wi-Fi · `Objective-C` `H.264` `v1.0`
 
