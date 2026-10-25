@@ -29,8 +29,8 @@ SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # ven
 ROWS = {
     "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "java", "go", "cs"],
     "apps": ["react", "vite", "wasm", "dotnet", "slint", "swiftui", "compose"],
-    "media": ["opengles", "ffmpeg", "whisper"],
-    "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "gradle", "githubactions"],
+    "media": ["opengles", "ffmpeg", "vlc", "whisper"],
+    "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "gradle", "xcode", "githubactions"],
     "platforms": ["windows", "apple", "linux", "android", "minecraft", "fabric"],
 }
 
@@ -204,6 +204,21 @@ def swiftui():
             f'{embedded("swiftui-tile.jpg", "jpeg", 0, 0, 256, clip="swiftui-tile")}</svg>')
 
 
+def vlc():
+    # VLC's own cone (from the VideoLAN source tree) on the dark tile.
+    paths = re.findall(r'<path [^>]+/>', (SRC / "vlc-cone.svg").read_text())
+    return tile(DARK, f'<g transform="translate(128 128) scale(1.5) translate(-65 -65)">{"".join(paths)}</g>')
+
+
+def xcode():
+    # Apple's own Xcode icon (from developer.apple.com), already placed on the
+    # dark tile and clipped to the tile shape.
+    return ('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" '
+            'height="256" viewBox="0 0 256 256"><defs><clipPath id="xcode-tile">'
+            '<rect width="256" height="256" rx="60"/></clipPath></defs>'
+            f'{embedded("xcode-tile.jpg", "jpeg", 0, 0, 256, clip="xcode-tile")}</svg>')
+
+
 def compose():
     # The Jetpack Compose logo (from developer.android.com) on the dark tile. Its ids
     # get a prefix so they cannot clash with other icons in the same row.
@@ -220,6 +235,8 @@ CUSTOM = {
     "android": android,
     "swiftui": swiftui,
     "compose": compose,
+    "vlc": vlc,
+    "xcode": xcode,
     "objc": objc,
     "slint": lambda: glyph_tile("slint", "#2379F4"),
     "ffmpeg": lambda: glyph_tile("ffmpeg", "#007808"),

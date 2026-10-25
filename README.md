@@ -127,11 +127,11 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 **Graphics & Media**
 
-<img src="assets/stack/media.svg" alt="OpenGL ES, FFmpeg, Whisper" />
+<img src="assets/stack/media.svg" alt="OpenGL ES, FFmpeg, VLC, Whisper" />
 
 **Data & Infrastructure**
 
-<img src="assets/stack/data.svg" alt="SQLite, PostgreSQL, Redis, Prometheus, Docker, Gradle, GitHub Actions" />
+<img src="assets/stack/data.svg" alt="SQLite, PostgreSQL, Redis, Prometheus, Docker, Gradle, Xcode, GitHub Actions" />
 
 **Platforms**
 
