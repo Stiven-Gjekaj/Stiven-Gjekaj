@@ -128,7 +128,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 **Graphics & Media**
 
-<img src="assets/stack/media.svg" alt="OpenGL ES, FFmpeg, VLC, Whisper" />
+<img src="assets/stack/media.svg" alt="OpenGL ES, SDL, FFmpeg, VLC, Whisper" />
 
 **Data & Infrastructure**
 

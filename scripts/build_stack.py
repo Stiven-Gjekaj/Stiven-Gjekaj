@@ -29,7 +29,7 @@ SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # ven
 ROWS = {
     "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "java", "go", "cs"],
     "apps": ["react", "vite", "wasm", "dotnet", "slint", "swiftui", "compose"],
-    "media": ["opengles", "ffmpeg", "vlc", "whisper"],
+    "media": ["opengles", "sdl", "ffmpeg", "vlc", "whisper"],
     "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "gradle", "xcode", "githubactions"],
     "platforms": ["windows", "apple", "linux", "android", "minecraft", "fabric"],
 }
@@ -196,12 +196,17 @@ def android():
     return glyph_tile("android", DARK, scale=7.5).replace('fill="#fff"', 'fill="#3DDC84"')
 
 
-def swiftui():
-    # Apple's own SwiftUI icon (from developer.apple.com), clipped to the tile shape.
+def photo_tile(name):
+    """A whole 256x256 tile from the JPEG SRC/<name>-tile.jpg, clipped to the tile shape."""
     return ('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" '
-            'height="256" viewBox="0 0 256 256"><defs><clipPath id="swiftui-tile">'
+            f'height="256" viewBox="0 0 256 256"><defs><clipPath id="{name}-tile">'
             '<rect width="256" height="256" rx="60"/></clipPath></defs>'
-            f'{embedded("swiftui-tile.jpg", "jpeg", 0, 0, 256, clip="swiftui-tile")}</svg>')
+            f'{embedded(f"{name}-tile.jpg", "jpeg", 0, 0, 256, clip=f"{name}-tile")}</svg>')
+
+
+def swiftui():
+    # Apple's own SwiftUI icon (from developer.apple.com).
+    return photo_tile("swiftui")
 
 
 def vlc():
@@ -211,12 +216,13 @@ def vlc():
 
 
 def xcode():
-    # Apple's own Xcode icon (from developer.apple.com), already placed on the
-    # dark tile and clipped to the tile shape.
-    return ('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" '
-            'height="256" viewBox="0 0 256 256"><defs><clipPath id="xcode-tile">'
-            '<rect width="256" height="256" rx="60"/></clipPath></defs>'
-            f'{embedded("xcode-tile.jpg", "jpeg", 0, 0, 256, clip="xcode-tile")}</svg>')
+    # Apple's own Xcode icon (from developer.apple.com), already placed on the dark tile.
+    return photo_tile("xcode")
+
+
+def sdl():
+    # SDL's own logo (from the SDL source tree), on white because its letters are dark navy.
+    return photo_tile("sdl")
 
 
 def compose():
@@ -237,6 +243,7 @@ CUSTOM = {
     "compose": compose,
     "vlc": vlc,
     "xcode": xcode,
+    "sdl": sdl,
     "objc": objc,
     "slint": lambda: glyph_tile("slint", "#2379F4"),
     "ffmpeg": lambda: glyph_tile("ffmpeg", "#007808"),
