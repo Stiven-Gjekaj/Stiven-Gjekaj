@@ -85,14 +85,13 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 ## 📖 Writing
 
-- **📚 [Soultale](https://readsoultale.com)** · Serialized saga in fifteen acts across 321 chapters, the universe behind Soulbound and PacketBrawl
+- **📚 [Soultale](https://readsoultale.com)** · Serialized saga in fifteen acts across 321 chapters, the universe behind Soulbound
 
 ---
 
 ## ⏸️ On Hold
 
 - **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
-- **🎮 [PacketBrawl](https://github.com/Stiven-Gjekaj/PacketBrawl)** · 1v1 turn-based tactical battler built on a fully deterministic simulation core · `TypeScript` `Node.js`
 
 ---
 
