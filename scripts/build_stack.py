@@ -14,6 +14,7 @@ skillicons.dev and cdn.simpleicons.org, and reads the vendored logos in
 assets/icons/src/.
 """
 import base64
+import http.client
 import re
 import struct
 import time
@@ -30,7 +31,7 @@ ROWS = {
     "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "java", "go", "cs"],
     "apps": ["react", "vite", "wasm", "dotnet", "slint", "swiftui", "compose"],
     "media": ["opengles", "sdl", "ffmpeg", "vlc", "whisper"],
-    "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "gradle", "xcode", "githubactions"],
+    "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "gradle", "xcode", "theos", "homebrew", "scoop", "githubactions"],
     "platforms": ["windows", "apple", "linux", "android", "minecraft", "fabric"],
 }
 
@@ -43,7 +44,7 @@ def fetch(url):
             req = urllib.request.Request(url, headers={"User-Agent": "build_stack"})
             with urllib.request.urlopen(req, timeout=30) as r:
                 return r.read().decode()
-        except OSError:
+        except (OSError, http.client.HTTPException):
             if attempt == 4:
                 raise
             time.sleep(2 * (attempt + 1))
@@ -225,6 +226,33 @@ def sdl():
     return photo_tile("sdl")
 
 
+def svg_logo(name, fill=DARK, size=196, skip=0):
+    """A vendored SVG logo from SRC, centred on a tile. `skip` drops that many
+    leading elements, such as a logo's own background square."""
+    src = (SRC / f"{name}.svg").read_text()
+    box = re.search(r'viewBox="([^"]+)"', src).group(1)
+    inner = src[src.index(">") + 1:src.rindex("</svg>")]
+    for _ in range(skip):
+        inner = inner[re.search(r"/>|</path>", inner).end():]
+    off = (256 - size) / 2
+    return tile(fill, f'<svg x="{off}" y="{off}" width="{size}" height="{size}" viewBox="{box}">{inner}</svg>')
+
+
+def theos():
+    # Theos's own mark (from theos.dev), without its square, on the dark tile.
+    return svg_logo("theos", size=236, skip=1)
+
+
+def homebrew():
+    # Homebrew's own beer mug (from brew.sh). Its dark outlines need a light tile.
+    return svg_logo("homebrew", fill="#FFFFFF", size=200)
+
+
+def scoop():
+    # Scoop's own logo (from scoop.sh). Its dark outlines need a light tile.
+    return svg_logo("scoop", fill="#FFFFFF", size=200)
+
+
 def compose():
     # The Jetpack Compose logo (from developer.android.com) on the dark tile. Its ids
     # get a prefix so they cannot clash with other icons in the same row.
@@ -244,6 +272,9 @@ CUSTOM = {
     "vlc": vlc,
     "xcode": xcode,
     "sdl": sdl,
+    "theos": theos,
+    "homebrew": homebrew,
+    "scoop": scoop,
     "objc": objc,
     "slint": lambda: glyph_tile("slint", "#2379F4"),
     "ffmpeg": lambda: glyph_tile("ffmpeg", "#007808"),
