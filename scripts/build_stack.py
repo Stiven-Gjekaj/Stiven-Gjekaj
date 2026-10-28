@@ -28,10 +28,10 @@ SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # ven
 # Each row: file name -> icons, left to right. Names are skillicons ids,
 # or one of the custom tiles defined further down.
 ROWS = {
-    "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "java", "go", "cs"],
-    "apps": ["react", "wasm", "dotnet", "slint", "swiftui", "compose"],
+    "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "java", "go"],
+    "apps": ["react", "wasm", "slint", "swiftui", "compose"],
     "media": ["opengles", "sdl", "ffmpeg", "vlc", "whisper"],
-    "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "homebrew", "scoop", "githubactions"],
+    "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "githubactions"],
     "platforms": ["windows", "apple", "linux", "android", "minecraft", "fabric"],
 }
 
@@ -243,16 +243,6 @@ def theos():
     return svg_logo("theos", size=236, skip=1)
 
 
-def homebrew():
-    # Homebrew's own beer mug (from brew.sh). Its dark outlines need a light tile.
-    return svg_logo("homebrew", fill="#FFFFFF", size=200)
-
-
-def scoop():
-    # Scoop's own logo (from scoop.sh). Its dark outlines need a light tile.
-    return svg_logo("scoop", fill="#FFFFFF", size=200)
-
-
 def compose():
     # The Jetpack Compose logo (from developer.android.com) on the dark tile. Its ids
     # get a prefix so they cannot clash with other icons in the same row.
@@ -273,8 +263,6 @@ CUSTOM = {
     "xcode": xcode,
     "sdl": sdl,
     "theos": theos,
-    "homebrew": homebrew,
-    "scoop": scoop,
     "objc": objc,
     "slint": lambda: glyph_tile("slint", "#2379F4"),
     "ffmpeg": lambda: glyph_tile("ffmpeg", "#007808"),
