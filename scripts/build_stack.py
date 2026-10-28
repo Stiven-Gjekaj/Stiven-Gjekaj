@@ -28,12 +28,13 @@ SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # ven
 # Each row: file name -> icons, left to right. Names are skillicons ids,
 # or one of the custom tiles defined further down.
 ROWS = {
-    "languages": ["rust", "python", "c", "objc", "swift", "ts", "js", "css", "kotlin", "java", "go"],
-    "apps": ["react", "vue", "wasm", "slint", "swiftui", "compose", "fastapi", "streamlit", "plotly"],
-    "media": ["opengles", "sdl", "ffmpeg", "vlc", "whisper"],
-    "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "llvm", "githubactions"],
-    "platforms": ["windows", "apple", "linux", "android", "minecraft", "fabric"],
+    "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "java", "go"],
+    "apps": ["react", "wasm", "slint", "swiftui", "compose", "opengles", "ffmpeg"],
+    "data": ["sqlite", "gradle", "xcode", "theos", "githubactions"],
+    "platforms": ["windows", "apple", "linux", "android", "minecraft"],
 }
+# Skills used in only one project or contribution are listed as text under the
+# rows instead. Their tiles stay defined below, so one can move back into a row.
 
 DARK = "#242938"  # the dark tile colour skillicons uses
 
