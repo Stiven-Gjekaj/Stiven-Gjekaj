@@ -117,15 +117,25 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 <div align="center">
 
-<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, Kotlin, Java, Go" />
+**Languages**
 
-<img src="assets/stack/apps.svg" alt="React, WebAssembly, Slint, SwiftUI, Jetpack Compose, OpenGL ES, FFmpeg" />
+<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, JavaScript, CSS, Kotlin, Java, Go" />
 
-<img src="assets/stack/data.svg" alt="SQLite, Gradle, Xcode, Theos, GitHub Actions" />
+**Apps & Web**
 
-<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, Minecraft" />
+<img src="assets/stack/apps.svg" alt="React, Vue, WebAssembly, Slint, SwiftUI, Jetpack Compose, FastAPI, Streamlit, Plotly" />
 
-<sub>Also worked with: JavaScript · CSS · Vue · FastAPI · Streamlit · Plotly · SDL · VLC · Whisper · PostgreSQL · Prometheus · Docker · LLVM · Fabric</sub>
+**Graphics & Media**
+
+<img src="assets/stack/media.svg" alt="OpenGL ES, SDL, FFmpeg, VLC, Whisper" />
+
+**Data & Infrastructure**
+
+<img src="assets/stack/data.svg" alt="SQLite, PostgreSQL, Prometheus, Docker, Gradle, Xcode, Theos, LLVM, GitHub Actions" />
+
+**Platforms**
+
+<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, Minecraft, Fabric" />
 
 </div>
 
