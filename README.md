@@ -119,11 +119,11 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 **Languages**
 
-<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, Kotlin, Java, Go" />
+<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, JavaScript, CSS, Kotlin, Java, Go" />
 
 **Apps & Web**
 
-<img src="assets/stack/apps.svg" alt="React, WebAssembly, Slint, SwiftUI, Jetpack Compose" />
+<img src="assets/stack/apps.svg" alt="React, Vue, WebAssembly, Slint, SwiftUI, Jetpack Compose, FastAPI, Streamlit, Plotly" />
 
 **Graphics & Media**
 
@@ -131,7 +131,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 **Data & Infrastructure**
 
-<img src="assets/stack/data.svg" alt="SQLite, PostgreSQL, Prometheus, Docker, Gradle, Xcode, Theos, GitHub Actions" />
+<img src="assets/stack/data.svg" alt="SQLite, PostgreSQL, Prometheus, Docker, Gradle, Xcode, Theos, LLVM, GitHub Actions" />
 
 **Platforms**
 

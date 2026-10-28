@@ -28,10 +28,10 @@ SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # ven
 # Each row: file name -> icons, left to right. Names are skillicons ids,
 # or one of the custom tiles defined further down.
 ROWS = {
-    "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "java", "go"],
-    "apps": ["react", "wasm", "slint", "swiftui", "compose"],
+    "languages": ["rust", "python", "c", "objc", "swift", "ts", "js", "css", "kotlin", "java", "go"],
+    "apps": ["react", "vue", "wasm", "slint", "swiftui", "compose", "fastapi", "streamlit", "plotly"],
     "media": ["opengles", "sdl", "ffmpeg", "vlc", "whisper"],
-    "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "githubactions"],
+    "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "llvm", "githubactions"],
     "platforms": ["windows", "apple", "linux", "android", "minecraft", "fabric"],
 }
 
@@ -243,6 +243,16 @@ def theos():
     return svg_logo("theos", size=236, skip=1)
 
 
+def streamlit():
+    # Streamlit's own mark (from the Streamlit source tree) on the dark tile.
+    return svg_logo("streamlit", size=200)
+
+
+def llvm():
+    # LLVM's own wyvern (from llvm.org), already placed on the dark tile.
+    return photo_tile("llvm")
+
+
 def compose():
     # The Jetpack Compose logo (from developer.android.com) on the dark tile. Its ids
     # get a prefix so they cannot clash with other icons in the same row.
@@ -263,6 +273,9 @@ CUSTOM = {
     "xcode": xcode,
     "sdl": sdl,
     "theos": theos,
+    "streamlit": streamlit,
+    "plotly": lambda: glyph_tile("plotly", DARK).replace('fill="#fff"', 'fill="#7A76FF"'),
+    "llvm": llvm,
     "objc": objc,
     "slint": lambda: glyph_tile("slint", "#2379F4"),
     "ffmpeg": lambda: glyph_tile("ffmpeg", "#007808"),
