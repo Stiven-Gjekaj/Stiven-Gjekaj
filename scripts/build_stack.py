@@ -29,9 +29,9 @@ SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # ven
 # or one of the custom tiles defined further down.
 ROWS = {
     "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "java", "go", "cs"],
-    "apps": ["react", "vite", "wasm", "dotnet", "slint", "swiftui", "compose"],
+    "apps": ["react", "wasm", "dotnet", "slint", "swiftui", "compose"],
     "media": ["opengles", "sdl", "ffmpeg", "vlc", "whisper"],
-    "data": ["sqlite", "postgres", "redis", "prometheus", "docker", "gradle", "xcode", "theos", "homebrew", "scoop", "githubactions"],
+    "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "homebrew", "scoop", "githubactions"],
     "platforms": ["windows", "apple", "linux", "android", "minecraft", "fabric"],
 }
 
