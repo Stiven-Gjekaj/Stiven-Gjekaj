@@ -79,7 +79,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🏰 [FortOS](https://github.com/Stiven-Gjekaj/FortOS)** · Fan demake of GANGFORT for a jailbroken iPhone 4S, offline matches against bots at 60 fps, using your own copy's assets · `C` `OpenGL ES` `v1.0`
 - **🗡️ [Alpharune](https://github.com/Stiven-Gjekaj/AlphaRune)** · Fan demake of DELTARUNE for a jailbroken iPhone 4S, a GML bytecode VM in C, using your own copy's assets · `C` `OpenGL ES` `v1.0`
 - **🌿 [Fernstone](https://github.com/Stiven-Gjekaj/fernstone)** · Native Minecraft Alpha and Beta multiplayer client for the iPhone 4S on iOS 6, newer iPhones, and the Mac · `C` `OpenGL ES` `v1.1`
-- **⚽ [Star Soccer Rebooted](https://github.com/Stiven-Gjekaj/StarSoccerRebooted)** · Fan remake of New Star Soccer for iOS, Android, macOS, Windows, and Linux, using your own copy's assets · `C` `SDL3` `v1.0`
+- **⚽ [Star Soccer Rebooted](https://github.com/Stiven-Gjekaj/StarSoccerRebooted)** · Fan remake of New Star Soccer for iOS, Android, macOS, Windows, and Linux, using your own copy's assets · `C` `SDL3` `v1.0.2`
 
 ---
 
