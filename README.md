@@ -37,7 +37,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v0.2`
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
-- **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Fabric mod where mobs evolve from how you kill them, and you pick adaptations to counter them · `Java` `Minecraft`
+- **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Fabric mod where mobs evolve from how you kill them, and you pick adaptations to counter them · `Java` `Minecraft` `v0.4-alpha`
 
 ---
 
@@ -74,12 +74,12 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 ### Games
 
-- **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole`
+- **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole` `v0.3-alpha`
 - **🃏 [Balatro4S](https://github.com/Stiven-Gjekaj/balatro4S)** · Fan demake of Balatro for a jailbroken iPhone 4S, rewritten in C with OpenGL ES, using your own copy's assets · `C` `Objective-C` `OpenGL ES` `v1.0`
 - **🏰 [FortOS](https://github.com/Stiven-Gjekaj/FortOS)** · Fan demake of GANGFORT for a jailbroken iPhone 4S, offline matches against bots at 60 fps, using your own copy's assets · `C` `OpenGL ES` `v1.0`
 - **🗡️ [Alpharune](https://github.com/Stiven-Gjekaj/AlphaRune)** · Fan demake of DELTARUNE for a jailbroken iPhone 4S, a GML bytecode VM in C, using your own copy's assets · `C` `OpenGL ES` `v1.0`
 - **🌿 [Fernstone](https://github.com/Stiven-Gjekaj/fernstone)** · Native Minecraft Alpha and Beta multiplayer client for the iPhone 4S on iOS 6, newer iPhones, and the Mac · `C` `OpenGL ES` `v1.1`
-- **⚽ [Star Soccer Rebooted](https://github.com/Stiven-Gjekaj/StarSoccerRebooted)** · Fan remake of New Star Soccer for iOS, Android, macOS, Windows, and Linux, using your own copy's assets · `C` `SDL3` `v1.0.2`
+- **⚽ [Star Soccer Rebooted](https://github.com/Stiven-Gjekaj/StarSoccerRebooted)** · Fan remake of New Star Soccer for iOS, Android, macOS, Windows, and Linux, using your own copy's assets · `C` `SDL3` `v1.0.3`
 
 ---
 

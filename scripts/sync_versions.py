@@ -2,7 +2,9 @@
 
 A project line ends with its version, such as `v1.2`. The tag is vX.Y when the
 patch is 0, and the full tag otherwise. A tag that is already shown in full,
-such as `v1.1.0`, stays in full. Projects with no release are left alone.
+such as `v1.1.0`, stays in full. A pre-release keeps its label, such as
+`v0.4-alpha`, and is used only while the project has no full release.
+Projects with no release are left alone.
 
 Usage, from the repository root:
 
@@ -23,20 +25,20 @@ README = Path(__file__).resolve().parent.parent / "README.md"
 OWNER = "Stiven-Gjekaj"
 
 LINE = re.compile(rf"^- \*\*.*?\[(?P<name>[^\]]+)\]\(https://github\.com/{OWNER}/(?P<slug>[^)/]+)\)\*\*.*$")
-TAG = re.compile(r" `(v\d+(?:\.\d+)*)`$")
-VERSION = re.compile(r"^v?(\d+(?:\.\d+)+)$")
+TAG = re.compile(r" `(v\d+(?:\.\d+)*(?:-[0-9A-Za-z.]+)?)`$")
+VERSION = re.compile(r"^v?(\d+(?:\.\d+)*)(-[0-9A-Za-z.]+)?$")
 
 
-def latest(slug):
-    """The tag of the latest release, or None if there is none."""
-    req = urllib.request.Request(f"https://api.github.com/repos/{OWNER}/{slug}/releases/latest",
+def api(path):
+    """The parsed JSON of a GitHub API path, or None on a 404."""
+    req = urllib.request.Request(f"https://api.github.com/repos/{OWNER}/{path}",
                                  headers={"Accept": "application/vnd.github+json", "User-Agent": "sync_versions"})
     if os.environ.get("GITHUB_TOKEN"):
         req.add_header("Authorization", f"Bearer {os.environ['GITHUB_TOKEN']}")
     for attempt in range(4):
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
-                return json.load(r)["tag_name"]
+                return json.load(r)
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return None
@@ -48,20 +50,32 @@ def latest(slug):
         time.sleep(2 * (attempt + 1))
 
 
-def numbers(tag):
-    parts = [int(p) for p in tag.lstrip("v").split(".")]
+def latest(slug):
+    """The tag of the latest full release, else of the newest pre-release, or None."""
+    release = api(f"{slug}/releases/latest")
+    if release:
+        return release["tag_name"]
+    newest = api(f"{slug}/releases?per_page=1")
+    return newest[0]["tag_name"] if newest else None
+
+
+def key(tag):
+    """What a tag means, so `v1.2` and `v1.2.0` compare equal but `v1.2-alpha` does not."""
+    m = VERSION.match(tag)
+    parts = [int(p) for p in m.group(1).split(".")]
     while len(parts) > 2 and parts[-1] == 0:
         parts.pop()
-    return parts
+    return parts, m.group(2) or ""
 
 
 def shown(release, current):
     """How the release tag is written, given the tag shown now (or None)."""
-    parts = VERSION.match(release).group(1).split(".")
-    full = current is not None and current.count(".") >= 2
-    if not full and all(p == "0" for p in parts[2:]):
+    m = VERSION.match(release)
+    parts = m.group(1).split(".")
+    full = current is not None and VERSION.match(current).group(1).count(".") >= 2
+    if not full and len(parts) > 2 and all(p == "0" for p in parts[2:]):
         parts = parts[:2]
-    return "v" + ".".join(parts)
+    return "v" + ".".join(parts) + (m.group(2) or "")
 
 
 def main():
@@ -76,7 +90,7 @@ def main():
             continue
         t = TAG.search(line)
         current = t.group(1) if t else None
-        if current and numbers(current) == numbers(release):
+        if current and key(current) == key(release):
             continue
         new = shown(release, current)
         lines[i] = (line[:t.start()] if t else line) + f" `{new}`"
