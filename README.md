@@ -38,6 +38,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v3.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
 - **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Fabric mod where mobs evolve from how you kill them, and you pick adaptations to counter them · `Java` `Minecraft` `v0.4-alpha`
+- **🦇 [DLGE Player](https://github.com/Stiven-Gjekaj/DLGEPlayer)** · Open-source player for Diabolik Lovers Grand Edition on desktop and mobile, from your own copy of the game · `Rust` `Godot`
 
 ---
 
