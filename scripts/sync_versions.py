@@ -6,6 +6,9 @@ such as `v1.1.0`, stays in full. A pre-release keeps its label, such as
 `v0.4-alpha`, and is used only while the project has no full release.
 Projects with no release are left alone.
 
+It also keeps the act and chapter counts of the Soultale line in step with
+the OPDS catalog of readsoultale.com.
+
 Usage, from the repository root:
 
     python3 scripts/sync_versions.py
@@ -78,9 +81,37 @@ def shown(release, current):
     return "v" + ".".join(parts) + (m.group(2) or "")
 
 
+SOULTALE_OPDS = "https://readsoultale.com/opds/catalog.xml"
+SOULTALE = re.compile(r"(\[Soultale\]\(https://readsoultale\.com\)\*\* · .*? in )(\w+) acts across (\d+) chapters")
+
+
+def soultale(lines):
+    """Set the Soultale line's acts and chapters from the site. True if it changed."""
+    try:
+        req = urllib.request.Request(SOULTALE_OPDS, headers={"User-Agent": "sync_versions"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            feed = r.read().decode()
+    except OSError as e:
+        print(f"Soultale: could not read the catalog ({e}), left as it is.")
+        return False
+    acts = re.search(r"<subtitle>[^<]*? in (\w+) acts", feed)
+    counts = re.findall(r"<summary>Act \d+ of Soultale, (\d+) chapters?\.</summary>", feed)
+    if not acts or not counts:
+        print("Soultale: the catalog has a new shape, left as it is.")
+        return False
+    acts, chapters = acts.group(1), str(sum(int(c) for c in counts))
+    for i, line in enumerate(lines):
+        m = SOULTALE.search(line)
+        if m and (m.group(2), m.group(3)) != (acts, chapters):
+            lines[i] = line[:m.start()] + f"{m.group(1)}{acts} acts across {chapters} chapters" + line[m.end():]
+            print(f"Soultale: {m.group(2)} acts, {m.group(3)} chapters -> {acts} acts, {chapters} chapters")
+            return True
+    return False
+
+
 def main():
     lines = README.read_text().split("\n")
-    changed = False
+    changed = soultale(lines)
     for i, line in enumerate(lines):
         m = LINE.match(line)
         if not m:

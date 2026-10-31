@@ -86,7 +86,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 ## 📖 Writing
 
-- **📚 [Soultale](https://readsoultale.com)** · Serialized saga in fifteen acts across 321 chapters, the universe behind Soulbound
+- **📚 [Soultale](https://readsoultale.com)** · Serialized saga in sixteen acts across 362 chapters, the universe behind Soulbound
 
 ---
 
