@@ -62,7 +62,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 ### Media & Streaming
 
 - **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Anime, movies, series, and live TV on Android TV and phones, from your Stremio addons and IPTV playlists · `Kotlin` `Android TV` `v1.7.0`
-- **📲 [ZettaStream for iOS](https://github.com/Stiven-Gjekaj/ZettaStreamIOS)** · iPhone and iPad version of ZettaStream that plays your Stremio addons and IPTV playlists · `Swift` `SwiftUI` `v1.0.1`
+- **📲 [ZettaStream for iOS](https://github.com/Stiven-Gjekaj/ZettaStreamIOS)** · iPhone and iPad version of ZettaStream that plays your Stremio addons and IPTV playlists · `Swift` `SwiftUI` `v1.1.0`
 - **🖥️ [ZettaStream Desktop](https://github.com/Stiven-Gjekaj/ZettaDesktop)** · Windows, macOS, and Linux version of ZettaStream that plays your Stremio addons and IPTV playlists · `Kotlin` `Compose` `v1.1`
 - **🌅 [Asabunko](https://github.com/Stiven-Gjekaj/Asabunko)** · Manga, comic, and light novel reader for iPhone and iPad that reads your files and community sources · `Swift` `SwiftUI` `v3.0.0`
 - **🌸 [Moekoma](https://github.com/Stiven-Gjekaj/Moekoma)** · Android version of Asabunko for phones, tablets, and e-ink readers such as the Onyx Boox · `Kotlin` `Compose` `v2.1`
