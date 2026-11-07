@@ -198,7 +198,15 @@ def android():
 
 
 def photo_tile(name):
-    """A whole 256x256 tile from the JPEG SRC/<name>-tile.jpg, clipped to the tile shape."""
+    """A whole 256x256 tile from the JPEG SRC/<name>-tile.jpg, clipped to the tile shape.
+
+    Each of these JPEGs is the official raster logo drawn once onto a 256x256
+    canvas: centred, aspect ratio kept, about 204 to 236 pixels on its long side,
+    over the tile colour (DARK, or white for a logo with dark lettering such as
+    SDL), and saved as a JPEG at quality 0.92. SwiftUI is the exception: its
+    official icon is already a tile, so it is cropped to its edges instead.
+    A JPEG keeps a logo with gradients far smaller than a PNG would.
+    """
     return ('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" '
             f'height="256" viewBox="0 0 256 256"><defs><clipPath id="{name}-tile">'
             '<rect width="256" height="256" rx="60"/></clipPath></defs>'
