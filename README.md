@@ -8,7 +8,7 @@
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
-I build the tools I wish existed: disk and file utilities, decompilers, new runtimes for old games, and apps that keep old hardware useful. Most of it runs offline, ships one build for every OS, and needs **no server and no account**.
+I build the tools I wish existed: disk and file utilities, decompilers, new runtimes for old games, and apps that keep old hardware useful. Most of it runs offline, ships one build for every OS, and needs **no server and no account**. I like file formats nobody documented, hardware everyone gave up on, and making the same code feel native on Windows, macOS, Linux, Android, and iOS.
 
 <br>
 
@@ -30,13 +30,9 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 
 </div>
 
----
-
 ## 🚧 Building Right Now
 
 - **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
-
----
 
 ## 🛠️ Selected Work
 
@@ -82,19 +78,13 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 - **⚽ [Star Soccer Rebooted](https://github.com/Stiven-Gjekaj/StarSoccerRebooted)** · Fan remake of New Star Soccer for iOS, Android, macOS, Windows, and Linux, using your own copy's assets · `C` `SDL3` `v1.0.3`
 - **🦇 [DLGE Player](https://github.com/Stiven-Gjekaj/DLGEPlayer)** · Open-source player for Diabolik Lovers Grand Edition on desktop and mobile, from your own copy of the game · `Rust` `Godot` `v1.0`
 
----
-
 ## 📖 Writing
 
 - **📚 [Soultale](https://readsoultale.com)** · Serialized saga in sixteen acts across 362 chapters, the universe behind Soulbound
 
----
-
 ## ⏸️ On Hold
 
 - **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Fabric mod where mobs evolve from how you kill them, and you pick adaptations to counter them · `Java` `Minecraft` `v0.4-alpha`
-
----
 
 ## 🤝 Open Source Contributions
 
@@ -105,14 +95,10 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 - **🔮 [Ante](https://github.com/jfecher/ante)** · Low-level functional language exploring safe shared mutability · `Rust` `LLVM`
 - **🦴 [mandible](https://github.com/AS-FOSS/mandible)** · TUI manual browser for every command-line tool on your machine · `Rust` `TUI`
 
----
-
 ## 🏢 Organizations
 
 - **🤝 [Code Charity](https://github.com/code-charity)** · Open-source collective building browser extensions and crowd-sourced web fixes for 850k+ users
 - **📄 [Paper Trail Development](https://github.com/PaperTrailDev)** · Indie game studio prototyping across Unity, Godot, and custom C++ engines
-
----
 
 ## ⚡ The Tech Stack
 
@@ -140,8 +126,6 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 
 </div>
 
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -155,8 +139,6 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 **[Browse all repositories ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
 
 </div>
-
----
 
 <div align="center">
 
