@@ -34,9 +34,7 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 ## 🚧 Building Right Now
 
-- **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v0.2`
-- **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v5.0`
-- **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
+- **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
 
 ---
 
@@ -50,6 +48,9 @@ A disk tool that reads what every drive says about its own health, then tests an
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically typed scripting language compiled to bytecode and run on a stack VM · `Rust` `Bytecode VM` `v2.1`
 - **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v1.0`
 - **🎓 [Polytechnium](https://github.com/Stiven-Gjekaj/polytechnium)** · iPhone and iPad app for UPT students that reads the faculty timetable PDF and tracks grades, exams, and deadlines · `Swift` `SwiftUI` `v2.0.1`
+- **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v0.2`
+- **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v5.0`
+- **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
 
 ### Local AI & ML
 
@@ -91,7 +92,6 @@ A disk tool that reads what every drive says about its own health, then tests an
 
 ## ⏸️ On Hold
 
-- **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
 - **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Fabric mod where mobs evolve from how you kill them, and you pick adaptations to counter them · `Java` `Minecraft` `v0.4-alpha`
 
 ---
