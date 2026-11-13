@@ -33,6 +33,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 ## 🚧 Building Right Now
 
 - **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes · `Rust` `wgpu`
+- **🪵 [hartwood](https://github.com/Stiven-Gjekaj/Hartwood)** · RISC-V (RV64GC) emulator that aims to boot Linux in the browser, from one core for the CLI and the web · `Rust` `RISC-V`
 
 ## 🛠️ Selected Work
 
