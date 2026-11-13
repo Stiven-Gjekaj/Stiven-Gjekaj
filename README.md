@@ -8,7 +8,7 @@
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
-Right now: a tool that compares images, video, PDFs, SVGs, and 3D meshes on the GPU and says what actually changed. Before that: a disk tool that reads what every drive says about its own health, a tool that pulls the forms back out of a Visual Basic 6 binary, and a ticket desk that lives in one SQLite file and looks like 2009. Before those: one streaming app on Android TV, iPhone, and desktop, manga readers for iPhone and e-ink, a Minecraft Beta client and new apps for an iPhone 4S still on iOS 6, and one command that gives every OS the tools it is missing. The themes that keep coming back are **local-first**, **one build for every OS**, and **no server, no account**.
+I build the tools I wish existed: disk and file utilities, decompilers, new runtimes for old games, and apps that keep old hardware useful. Most of it runs offline, ships one build for every OS, and needs **no server and no account**.
 
 <br>
 
@@ -40,8 +40,7 @@ Right now: a tool that compares images, video, PDFs, SVGs, and 3D meshes on the 
 
 ## 🛠️ Selected Work
 
-<details>
-<summary><b>Tools &amp; Systems</b></summary>
+### Tools & Systems
 
 - **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux · `Rust` `CLI` `v3.3`
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
@@ -53,20 +52,14 @@ Right now: a tool that compares images, video, PDFs, SVGs, and 3D meshes on the 
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v5.0`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v0.2`
 
-</details>
-
-<details>
-<summary><b>Local AI &amp; ML</b></summary>
+### Local AI & ML
 
 - **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know, built from a chat transcript · `Python` `Local LLM` `v1.1`
 - **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper` `v0.2.0.3`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
 - **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench in the terminal, with 25 environments and 43 agents written from scratch · `Python` `RL`
 
-</details>
-
-<details>
-<summary><b>Media &amp; Streaming</b></summary>
+### Media & Streaming
 
 - **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Anime, movies, series, and live TV on Android TV and phones, from your Stremio addons and IPTV playlists · `Kotlin` `Android TV` `v1.7.0`
 - **📲 [ZettaStream for iOS](https://github.com/Stiven-Gjekaj/ZettaStreamIOS)** · iPhone and iPad version of ZettaStream that plays your Stremio addons and IPTV playlists · `Swift` `SwiftUI` `v1.1.0`
@@ -79,10 +72,7 @@ Right now: a tool that compares images, video, PDFs, SVGs, and 3D meshes on the 
 - **🐕 [TuneHound](https://github.com/Stiven-Gjekaj/TuneHound)** · Paste a music link and it finds the song, downloads it, and tags the mp3 · `Python` `yt-dlp` `v1.1.1`
 - **🎥 [RecTunnelX](https://github.com/Stiven-Gjekaj/RecTunnelX)** · Streams a jailbroken iPhone 4S screen to OBS with hardware H.264 over USB or Wi-Fi · `Objective-C` `H.264` `v1.0`
 
-</details>
-
-<details>
-<summary><b>Games</b></summary>
+### Games
 
 - **🕹️ [RogueBit](https://github.com/Stiven-Gjekaj/RogueBit)** · Seeded, turn-based ASCII roguelike with shadowcasting FOV and A* pathfinding · `C#` `.NET` `SadConsole` `v0.3-alpha`
 - **🃏 [Balatro4S](https://github.com/Stiven-Gjekaj/balatro4S)** · Fan demake of Balatro for a jailbroken iPhone 4S, rewritten in C with OpenGL ES, using your own copy's assets · `C` `Objective-C` `OpenGL ES` `v1.0`
@@ -91,8 +81,6 @@ Right now: a tool that compares images, video, PDFs, SVGs, and 3D meshes on the 
 - **🌿 [Fernstone](https://github.com/Stiven-Gjekaj/fernstone)** · Native Minecraft Alpha and Beta multiplayer client for the iPhone 4S on iOS 6, newer iPhones, and the Mac · `C` `OpenGL ES` `v1.1`
 - **⚽ [Star Soccer Rebooted](https://github.com/Stiven-Gjekaj/StarSoccerRebooted)** · Fan remake of New Star Soccer for iOS, Android, macOS, Windows, and Linux, using your own copy's assets · `C` `SDL3` `v1.0.3`
 - **🦇 [DLGE Player](https://github.com/Stiven-Gjekaj/DLGEPlayer)** · Open-source player for Diabolik Lovers Grand Edition on desktop and mobile, from your own copy of the game · `Rust` `Godot` `v1.0`
-
-</details>
 
 ---
 
@@ -110,17 +98,12 @@ Right now: a tool that compares images, video, PDFs, SVGs, and 3D meshes on the 
 
 ## 🤝 Open Source Contributions
 
-<details>
-<summary><b>Show contributions</b></summary>
-
 - **📺 [ImprovedTube](https://github.com/code-charity/youtube)** · YouTube extension with 350+ tweaks for playback, UI, and discovery · `JavaScript` `CSS`
 - **🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** · Climate dashboard tracking Paris Agreement progress across 200+ countries · `Python` `Streamlit` `Plotly`
 - **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
 - **📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)** · Open-source offline-first knowledge management platform · `Vue` `TypeScript` `Go`
 - **🔮 [Ante](https://github.com/jfecher/ante)** · Low-level functional language exploring safe shared mutability · `Rust` `LLVM`
 - **🦴 [mandible](https://github.com/AS-FOSS/mandible)** · TUI manual browser for every command-line tool on your machine · `Rust` `TUI`
-
-</details>
 
 ---
 
