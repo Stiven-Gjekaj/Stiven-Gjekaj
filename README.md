@@ -39,7 +39,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 
 ### Tools & Systems
 
-- **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux · `Rust` `CLI` `v3.4`
+- **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux · `Rust` `CLI` `v3.4.1`
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically typed scripting language compiled to bytecode and run on a stack VM · `Rust` `Bytecode VM` `v2.1`
