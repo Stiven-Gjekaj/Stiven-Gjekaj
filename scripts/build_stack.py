@@ -30,7 +30,7 @@ SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # ven
 ROWS = {
     "languages": ["rust", "python", "c", "objc", "swift", "ts", "js", "css", "kotlin", "java", "go"],
     "apps": ["react", "vue", "wasm", "slint", "swiftui", "compose", "fastapi", "streamlit", "plotly"],
-    "media": ["opengles", "sdl", "godot", "ffmpeg", "vlc", "whisper"],
+    "media": ["opengles", "wgpu", "sdl", "godot", "ffmpeg", "vlc", "whisper"],
     "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "llvm", "githubactions"],
     "platforms": ["windows", "apple", "linux", "android", "minecraft", "fabric"],
 }
@@ -205,6 +205,8 @@ def photo_tile(name):
     over the tile colour (DARK, or white for a logo with dark lettering such as
     SDL), and saved as a JPEG at quality 0.92. SwiftUI is the exception: its
     official icon is already a tile, so it is cropped to its edges instead.
+    wgpu is cropped to its colour mark, since its black lettering would vanish
+    on the dark tile.
     A JPEG keeps a logo with gradients far smaller than a PNG would.
     """
     return ('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" '
@@ -227,6 +229,11 @@ def vlc():
 def xcode():
     # Apple's own Xcode icon (from developer.apple.com), already placed on the dark tile.
     return photo_tile("xcode")
+
+
+def wgpu():
+    # wgpu's own mark (from the wgpu repository), without the "gpu" lettering, on the dark tile.
+    return photo_tile("wgpu")
 
 
 def sdl():
@@ -280,6 +287,7 @@ CUSTOM = {
     "vlc": vlc,
     "xcode": xcode,
     "sdl": sdl,
+    "wgpu": wgpu,
     "theos": theos,
     "streamlit": streamlit,
     "plotly": lambda: glyph_tile("plotly", DARK).replace('fill="#fff"', 'fill="#7A76FF"'),

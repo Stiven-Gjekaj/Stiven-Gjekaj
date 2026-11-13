@@ -115,7 +115,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 
 **Graphics & Media**
 
-<img src="assets/stack/media.svg" alt="OpenGL ES, SDL, Godot, FFmpeg, VLC, Whisper" />
+<img src="assets/stack/media.svg" alt="OpenGL ES, wgpu, SDL, Godot, FFmpeg, VLC, Whisper" />
 
 **Data & Infrastructure**
 
