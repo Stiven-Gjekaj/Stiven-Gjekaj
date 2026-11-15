@@ -121,7 +121,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 
 **Platforms**
 
-<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, Minecraft, Fabric" />
+<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, RISC-V, Minecraft, Fabric" />
 
 </div>
 

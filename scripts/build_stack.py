@@ -32,7 +32,7 @@ ROWS = {
     "apps": ["react", "vue", "wasm", "slint", "swiftui", "compose", "fastapi", "streamlit", "plotly"],
     "media": ["opengles", "wgpu", "sdl", "godot", "ffmpeg", "vlc", "whisper"],
     "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "llvm", "githubactions"],
-    "platforms": ["windows", "apple", "linux", "android", "minecraft", "fabric"],
+    "platforms": ["windows", "apple", "linux", "android", "riscv", "minecraft", "fabric"],
 }
 
 DARK = "#242938"  # the dark tile colour skillicons uses
@@ -241,11 +241,12 @@ def sdl():
     return photo_tile("sdl")
 
 
-def svg_logo(name, fill=DARK, size=196, skip=0):
+def svg_logo(name, fill=DARK, size=196, skip=0, box=None):
     """A vendored SVG logo from SRC, centred on a tile. `skip` drops that many
-    leading elements, such as a logo's own background square."""
+    leading elements, such as a logo's own background square. `box` shows only
+    that part of the logo, such as the mark at the start of a wordmark."""
     src = (SRC / f"{name}.svg").read_text()
-    box = re.search(r'viewBox="([^"]+)"', src).group(1)
+    box = box or re.search(r'viewBox="([^"]+)"', src).group(1)
     inner = src[src.index(">") + 1:src.rindex("</svg>")]
     for _ in range(skip):
         inner = inner[re.search(r"/>|</path>", inner).end():]
@@ -256,6 +257,12 @@ def svg_logo(name, fill=DARK, size=196, skip=0):
 def theos():
     # Theos's own mark (from theos.dev), without its square, on the dark tile.
     return svg_logo("theos", size=236, skip=1)
+
+
+def riscv():
+    # The RV mark from RISC-V's own logo (from riscv-isa-manual), without the
+    # wordmark, on white because its navy would be lost on the dark tile.
+    return svg_logo("riscv", fill="#FFFFFF", size=180, box="0 0 76.6 76.6")
 
 
 def streamlit():
@@ -289,6 +296,7 @@ CUSTOM = {
     "sdl": sdl,
     "wgpu": wgpu,
     "theos": theos,
+    "riscv": riscv,
     "streamlit": streamlit,
     "plotly": lambda: glyph_tile("plotly", DARK).replace('fill="#fff"', 'fill="#7A76FF"'),
     "llvm": llvm,
