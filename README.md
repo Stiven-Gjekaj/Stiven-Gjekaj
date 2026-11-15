@@ -30,9 +30,6 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 
 </div>
 
-## 🚧 Building Right Now
-
-- **🪵 [hartwood](https://github.com/Stiven-Gjekaj/Hartwood)** · RISC-V (RV64GC) emulator that aims to boot Linux in the browser, from one core for the CLI and the web · `Rust` `RISC-V`
 
 ## 🛠️ Selected Work
 
@@ -48,6 +45,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 - **🔓 [DeForm6](https://github.com/Stiven-Gjekaj/DeForm6)** · Rebuilds a VB6 project's forms and controls from the binary, every fact traced to a byte · `Rust` `VB6` `v5.0.1`
 - **🌭 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand)** · Local ticket manager with a Windows 7 look, kept in one SQLite file · `Rust` `Slint` `v1.0`
 - **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes that reports what changed, with the same verdict on every machine · `Rust` `wgpu` `v1.0`
+- **🪵 [hartwood](https://github.com/Stiven-Gjekaj/Hartwood)** · RISC-V (RV64GC) emulator that boots Linux in a terminal and in the browser, with no JIT and no unsafe code · `Rust` `RISC-V` `v1.0`
 
 ### Local AI & ML
 
