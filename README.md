@@ -80,6 +80,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 ## 📖 Writing
 
 - **📚 [Soultale](https://readsoultale.com)** · Serialized saga in sixteen acts across 362 chapters, the universe behind Soulbound
+- **🎲 [Dice & Destiny](https://github.com/Stiven-Gjekaj/dice-and-destiny)** · Two-book tabletop RPG for fifth edition (2024): the free SRD 5.2 rules plus thousands of original classes, monsters, spells, and items · `5e` `SRD 5.2` `Edition 2`
 
 ## ⏸️ On Hold
 
