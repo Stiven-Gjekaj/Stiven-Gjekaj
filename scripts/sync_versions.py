@@ -4,6 +4,7 @@ A project line ends with its version, such as `v1.2`. The tag is vX.Y when the
 patch is 0, and the full tag otherwise. A tag that is already shown in full,
 such as `v1.1.0`, stays in full. A pre-release keeps its label, such as
 `v0.4-alpha`, and is used only while the project has no full release.
+A book released by edition, such as `edition-2`, is shown as `Edition 2`.
 Projects with no release are left alone.
 
 It also keeps the act and chapter counts of the Soultale line in step with
@@ -30,6 +31,8 @@ OWNER = "Stiven-Gjekaj"
 LINE = re.compile(rf"^- \*\*.*?\[(?P<name>[^\]]+)\]\(https://github\.com/{OWNER}/(?P<slug>[^)/]+)\)\*\*.*$")
 TAG = re.compile(r" `(v\d+(?:\.\d+)*(?:-[0-9A-Za-z.]+)?)`$")
 VERSION = re.compile(r"^v?(\d+(?:\.\d+)*)(-[0-9A-Za-z.]+)?$")
+EDITION_RELEASE = re.compile(r"^edition-(\d+)$")
+EDITION_TAG = re.compile(r" `(Edition \d+)`$")
 
 
 def api(path):
@@ -117,6 +120,16 @@ def main():
         if not m:
             continue
         release = latest(m["slug"])
+        edition = EDITION_RELEASE.match(release or "")
+        if edition:
+            # A book released by edition, such as `edition-2`, is shown as `Edition 2`.
+            t = EDITION_TAG.search(line)
+            new = f"Edition {edition.group(1)}"
+            if not t or t.group(1) != new:
+                lines[i] = (line[:t.start()] if t else line) + f" `{new}`"
+                print(f"{m['name']}: {t.group(1) if t else 'no tag'} -> {new}")
+                changed = True
+            continue
         if not release or not VERSION.match(release):
             continue
         t = TAG.search(line)
