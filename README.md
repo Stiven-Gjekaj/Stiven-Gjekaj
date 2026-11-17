@@ -94,6 +94,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 - **📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)** · Open-source offline-first knowledge management platform · `Vue` `TypeScript` `Go`
 - **🔮 [Ante](https://github.com/jfecher/ante)** · Low-level functional language exploring safe shared mutability · `Rust` `LLVM`
 - **🦴 [mandible](https://github.com/AS-FOSS/mandible)** · TUI manual browser for every command-line tool on your machine · `Rust` `TUI`
+- **🦀 [Tauri](https://github.com/tauri-apps/tauri)** · Framework for small, fast desktop and mobile apps with a web frontend · `Rust`
 
 ## 🏢 Organizations
 
