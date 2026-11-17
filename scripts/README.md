@@ -15,6 +15,7 @@ python3 scripts/sync_versions.py
   is already shown in full stays in full.
 - Uses a pre-release, such as `v0.4-alpha`, only while a project has no full
   release.
+- Shows a book released by edition, such as `edition-2`, as `Edition 2`.
 - Sets the act and chapter counts of the Soultale line from the OPDS catalog
   of readsoultale.com.
 
