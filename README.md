@@ -30,7 +30,6 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 
 </div>
 
-
 ## 🛠️ Selected Work
 
 ### Tools & Systems
@@ -47,7 +46,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 - **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes that reports what changed, with the same verdict on every machine · `Rust` `wgpu` `v1.0`
 - **🪵 [hartwood](https://github.com/Stiven-Gjekaj/Hartwood)** · RISC-V (RV64GC) emulator that boots Linux in a terminal and in the browser, with no JIT and no unsafe code · `Rust` `RISC-V` `v1.0`
 - **🧂 [Saltworks](https://github.com/Stiven-Gjekaj/saltworks)** · Nine mods for Claude Code: two dithered themes, guards for commits, pushes, and deletes, a style linter, and status bands · `TypeScript` `Claude Code`
-- **🗺️ [inkland](https://github.com/Stiven-Gjekaj/inkland)** · Deterministic fantasy map engine that makes print-ready SVG maps from a JSON config, with pinned places that never move · `Rust` `v1.0` `v1.1`
+- **🗺️ [inkland](https://github.com/Stiven-Gjekaj/inkland)** · Deterministic fantasy map engine that makes print-ready SVG maps from a JSON config, with pinned places that never move · `Rust` `v1.1`
 
 ### Local AI & ML
 
