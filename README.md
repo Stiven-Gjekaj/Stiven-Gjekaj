@@ -92,14 +92,14 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 
 ## 🤝 Open Source Contributions
 
+- **🦀 [Tauri](https://github.com/tauri-apps/tauri)** · Framework for small, fast desktop and mobile apps with a web frontend · `Rust`
+- **📝 [Zed](https://github.com/zed-industries/zed)** · High-performance, multiplayer code editor written in Rust · `Rust`
 - **📺 [ImprovedTube](https://github.com/code-charity/youtube)** · YouTube extension with 350+ tweaks for playback, UI, and discovery · `JavaScript` `CSS`
-- **🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** · Climate dashboard tracking Paris Agreement progress across 200+ countries · `Python` `Streamlit` `Plotly`
-- **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
 - **📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)** · Open-source offline-first knowledge management platform · `Vue` `TypeScript` `Go`
 - **🔮 [Ante](https://github.com/jfecher/ante)** · Low-level functional language exploring safe shared mutability · `Rust` `LLVM`
 - **🦴 [mandible](https://github.com/AS-FOSS/mandible)** · TUI manual browser for every command-line tool on your machine · `Rust` `TUI`
-- **🦀 [Tauri](https://github.com/tauri-apps/tauri)** · Framework for small, fast desktop and mobile apps with a web frontend · `Rust`
-- **📝 [Zed](https://github.com/zed-industries/zed)** · High-performance, multiplayer code editor written in Rust · `Rust`
+- **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
+- **🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** · Climate dashboard tracking Paris Agreement progress across 200+ countries · `Python` `Streamlit` `Plotly`
 
 ## 🏢 Organizations
 
