@@ -8,7 +8,7 @@
 
 **Electronics Engineering student @ UPT** who likes doing the hard part by hand.
 
-I build the tools I wish existed: disk and file utilities, decompilers, new runtimes for old games, and apps that keep old hardware useful. Most of it runs offline, ships one build for every OS, and needs **no server and no account**. I like file formats nobody documented, hardware everyone gave up on, and making the same code feel native on Windows, macOS, Linux, Android, and iOS.
+I build the tools I wish existed: disk and file utilities, decompilers, emulators, new runtimes for old games, and apps that keep old hardware useful. Most of it runs offline, ships one build for every OS, and needs **no server and no account**. I like file formats nobody documented, hardware everyone gave up on, and making the same code feel native on Windows, macOS, Linux, Android, and iOS. I also send fixes upstream to projects like Zed and Tauri, and away from the keyboard I write fiction and tabletop RPG books.
 
 <br>
 
