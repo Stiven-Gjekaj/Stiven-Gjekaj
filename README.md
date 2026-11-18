@@ -32,7 +32,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, new runt
 
 ## 🚧 Building Right Now
 
-- **🗺️ [inkland](https://github.com/Stiven-Gjekaj/inkland)** · Deterministic fantasy map engine that makes print-ready SVG maps from a JSON config, with pinned places that never move · `Rust`
+- **🗺️ [inkland](https://github.com/Stiven-Gjekaj/inkland)** · Deterministic fantasy map engine that makes print-ready SVG maps from a JSON config, with pinned places that never move · `Rust` `v1.0`
 
 ## 🛠️ Selected Work
 
