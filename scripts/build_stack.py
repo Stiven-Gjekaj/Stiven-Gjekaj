@@ -28,7 +28,7 @@ SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # ven
 ROWS = {
     "languages": ["rust", "python", "c", "objc", "swift", "ts", "js", "css", "kotlin", "go"],
     "apps": ["react", "vue", "wasm", "slint", "swiftui", "compose", "fastapi", "streamlit", "plotly"],
-    "media": ["opengles", "wgpu", "sdl", "godot", "ffmpeg", "vlc", "whisper"],
+    "media": ["opengles", "wgpu", "godot", "ffmpeg", "vlc", "whisper"],
     "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "llvm", "githubactions"],
     "platforms": ["windows", "apple", "linux", "android", "riscv", "minecraft"],
 }
@@ -128,8 +128,8 @@ def photo_tile(name):
 
     Each of these JPEGs is the official raster logo drawn once onto a 256x256
     canvas: centred, aspect ratio kept, about 204 to 236 pixels on its long side,
-    over the tile colour (DARK, or white for a logo with dark lettering such as
-    SDL), and saved as a JPEG at quality 0.92. SwiftUI is the exception: its
+    over the tile colour (DARK, or white for a logo with dark lettering), and
+    saved as a JPEG at quality 0.92. SwiftUI is the exception: its
     official icon is already a tile, so it is cropped to its edges instead.
     wgpu is cropped to its colour mark, since its black lettering would vanish
     on the dark tile.
@@ -160,11 +160,6 @@ def xcode():
 def wgpu():
     # wgpu's own mark (from the wgpu repository), without the "gpu" lettering, on the dark tile.
     return photo_tile("wgpu")
-
-
-def sdl():
-    # SDL's own logo (from the SDL source tree), on white because its letters are dark navy.
-    return photo_tile("sdl")
 
 
 def svg_logo(name, fill=DARK, size=196, skip=0, box=None):
@@ -218,7 +213,6 @@ CUSTOM = {
     "compose": compose,
     "vlc": vlc,
     "xcode": xcode,
-    "sdl": sdl,
     "wgpu": wgpu,
     "theos": theos,
     "riscv": riscv,
