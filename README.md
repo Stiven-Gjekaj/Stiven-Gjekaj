@@ -75,6 +75,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 - **🏰 [FortOS](https://github.com/Stiven-Gjekaj/FortOS)** · Fan demake of GANGFORT for a jailbroken iPhone 4S, offline matches against bots at 60 fps, using your own copy's assets · `C` `OpenGL ES` `v1.0`
 - **🗡️ [Alpharune](https://github.com/Stiven-Gjekaj/AlphaRune)** · Fan demake of DELTARUNE for a jailbroken iPhone 4S, a GML bytecode VM in C, using your own copy's assets · `C` `OpenGL ES` `v1.0`
 - **🌿 [Fernstone](https://github.com/Stiven-Gjekaj/fernstone)** · Native Minecraft Alpha and Beta multiplayer client for the iPhone 4S on iOS 6, newer iPhones, and the Mac · `C` `OpenGL ES` `v1.1`
+- **⚽ [Star Soccer Rebooted](https://github.com/Stiven-Gjekaj/StarSoccerRebooted)** · Fan remake of New Star Soccer for iOS, Android, macOS, Windows, and Linux, using your own copy's assets · `C` `SDL3` `v1.0.3`
 - **🦇 [DLGE Player](https://github.com/Stiven-Gjekaj/DLGEPlayer)** · Open-source player for Diabolik Lovers Grand Edition on desktop and mobile, from your own copy of the game · `Rust` `Godot` `v1.0`
 
 ## 📖 Writing
@@ -117,7 +118,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 
 **Graphics & Media**
 
-<img src="assets/stack/media.svg" alt="OpenGL ES, wgpu, Godot, FFmpeg, VLC, Whisper" />
+<img src="assets/stack/media.svg" alt="OpenGL ES, wgpu, SDL, Godot, FFmpeg, VLC, Whisper" />
 
 **Data & Infrastructure**
 
