@@ -16,8 +16,10 @@ assets/icons/src/.
 import base64
 import http.client
 import re
+import struct
 import time
 import urllib.request
+import zlib
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "assets" / "stack"
@@ -26,11 +28,11 @@ SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # ven
 # Each row: file name -> icons, left to right. Names are skillicons ids,
 # or one of the custom tiles defined further down.
 ROWS = {
-    "languages": ["rust", "python", "c", "objc", "swift", "ts", "js", "css", "kotlin", "go"],
+    "languages": ["rust", "python", "c", "objc", "swift", "ts", "js", "css", "kotlin", "java", "go"],
     "apps": ["react", "vue", "wasm", "slint", "swiftui", "compose", "fastapi", "streamlit", "plotly"],
     "media": ["opengles", "wgpu", "godot", "ffmpeg", "vlc", "whisper"],
     "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "llvm", "githubactions"],
-    "platforms": ["windows", "apple", "linux", "android", "riscv", "minecraft"],
+    "platforms": ["windows", "apple", "linux", "android", "riscv", "minecraft", "fabric"],
 }
 
 DARK = "#242938"  # the dark tile colour skillicons uses
@@ -105,6 +107,73 @@ def whisper():
         f'rx="{bw / 2}" fill="#fff"/>' for i, h in enumerate(bars)))
 
 
+def png_pixels(path):
+    """Width, height, and RGBA rows of a small PNG (palette or RGBA, no interlace)."""
+    data = path.read_bytes()
+    pos, idat, plte, trns = 8, b"", b"", b""
+    while pos < len(data):
+        n, kind = struct.unpack(">I4s", data[pos:pos + 8])
+        body = data[pos + 8:pos + 8 + n]
+        pos += n + 12
+        if kind == b"IHDR":
+            w, h, depth, ctype = struct.unpack(">IIBB", body[:10])
+        elif kind == b"PLTE":
+            plte = body
+        elif kind == b"tRNS":
+            trns = body
+        elif kind == b"IDAT":
+            idat += body
+    raw = zlib.decompress(idat)
+    bpp = {3: depth / 8, 6: 4}[ctype]
+    stride = int(-(-w * bpp // 1))
+    step = max(1, int(bpp))
+    rows, prev, i = [], bytearray(stride), 0
+    for _ in range(h):
+        f, line = raw[i], bytearray(raw[i + 1:i + 1 + stride])
+        i += 1 + stride
+        for x in range(stride):
+            a = line[x - step] if x >= step else 0
+            b, c = prev[x], prev[x - step] if x >= step else 0
+            if f == 1:
+                line[x] = (line[x] + a) & 255
+            elif f == 2:
+                line[x] = (line[x] + b) & 255
+            elif f == 3:
+                line[x] = (line[x] + (a + b) // 2) & 255
+            elif f == 4:
+                pa, pb, pc = abs(b - c), abs(a - c), abs(a + b - 2 * c)
+                line[x] = (line[x] + (a if pa <= pb and pa <= pc else b if pb <= pc else c)) & 255
+        prev = line
+        if ctype == 6:
+            rows.append([tuple(line[x * 4:x * 4 + 4]) for x in range(w)])
+        else:
+            per = 8 // depth
+            idx = [(line[x // per] >> (8 - depth * (x % per + 1))) & ((1 << depth) - 1) for x in range(w)]
+            rows.append([(*plte[k * 3:k * 3 + 3], trns[k] if k < len(trns) else 255) for k in idx])
+    return w, h, rows
+
+
+def pixel_art(path, size):
+    """A pixel-art PNG as crisp SVG rects, centred in the tile and `size` units tall."""
+    w, h, rows = png_pixels(path)
+    px = size / h
+    x0, y0 = (256 - w * px) / 2, (256 - h * px) / 2
+    out = []
+    for y, line in enumerate(rows):
+        x = 0
+        while x < w:
+            r, g, b, a = line[x]
+            run = 1
+            while x + run < w and line[x + run] == line[x]:
+                run += 1
+            if a:
+                op = "" if a == 255 else f' fill-opacity="{a / 255:.2f}"'
+                out.append(f'<rect x="{x0 + x * px:.2f}" y="{y0 + y * px:.2f}" width="{run * px + 0.05:.2f}" '
+                           f'height="{px + 0.05:.2f}" fill="#{r:02X}{g:02X}{b:02X}"{op}/>')
+            x += run
+    return "".join(out)
+
+
 def embedded(path, kind, x, y, size, clip=None):
     """A raster image from SRC, embedded as base64."""
     data = base64.b64encode((SRC / path).read_bytes()).decode()
@@ -116,6 +185,11 @@ def embedded(path, kind, x, y, size, clip=None):
 def minecraft():
     # Minecraft's own grass block render (from minecraft.wiki) on the dark tile.
     return tile(DARK, embedded("minecraft-grass-block.png", "png", 40, 40, 176))
+
+
+def fabric():
+    # Fabric's own logo (from fabricmc.net), pixel for pixel, on the dark tile.
+    return tile(DARK, pixel_art(SRC / "fabric-logo.png", 180))
 
 
 def android():
@@ -208,6 +282,7 @@ def compose():
 
 CUSTOM = {
     "minecraft": minecraft,
+    "fabric": fabric,
     "android": android,
     "swiftui": swiftui,
     "compose": compose,

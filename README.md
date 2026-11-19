@@ -82,6 +82,9 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 - **📚 [Soultale](https://readsoultale.com)** · Serialized saga in sixteen acts across 362 chapters, the universe behind Soulbound
 - **🎲 [Dice & Destiny](https://github.com/Stiven-Gjekaj/dice-and-destiny)** · Two-book tabletop RPG for fifth edition (2024): the free SRD 5.2 rules plus thousands of original classes, monsters, spells, and items · `5e` `SRD 5.2` `Edition 2`
 
+## ⏸️ On Hold
+
+- **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Fabric mod where mobs evolve from how you kill them, and you pick adaptations to counter them · `Java` `Minecraft` `v0.4-alpha`
 
 ## 🤝 Open Source Contributions
 
@@ -106,7 +109,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 
 **Languages**
 
-<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, JavaScript, CSS, Kotlin, Go" />
+<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, JavaScript, CSS, Kotlin, Java, Go" />
 
 **Apps & Web**
 
@@ -122,7 +125,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 
 **Platforms**
 
-<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, RISC-V, Minecraft" />
+<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, RISC-V, Minecraft, Fabric" />
 
 </div>
 
