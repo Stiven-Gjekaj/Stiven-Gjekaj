@@ -111,7 +111,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 
 **Languages**
 
-<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, JavaScript, CSS, Kotlin, Java, Go" />
+<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, JavaScript, CSS, Kotlin, Java, Go, Bash, PowerShell" />
 
 **Apps & Web**
 
