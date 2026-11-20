@@ -30,6 +30,11 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 
 </div>
 
+## 🚧 Building Right Now
+
+- **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Fabric mod where mobs evolve from how you kill them, and you pick adaptations to counter them · `Java` `Minecraft` `v0.4-alpha`
+- **🗺️ [inkland](https://github.com/Stiven-Gjekaj/inkland)** · Deterministic remake of Azgaar's Fantasy Map Generator that makes print-ready SVG maps from a JSON config, with pinned places that never move · `Rust` `v2.1.0`
+
 ## 🛠️ Selected Work
 
 ### Tools & Systems
@@ -47,7 +52,6 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 - **💎 [chrysoberyl](https://github.com/Stiven-Gjekaj/chrysoberyl)** · GPU structural diff for images, video, PDF, SVG, and 3D meshes that reports what changed, with the same verdict on every machine · `Rust` `wgpu` `v1.0`
 - **🪵 [hartwood](https://github.com/Stiven-Gjekaj/Hartwood)** · RISC-V (RV64GC) emulator that boots Linux in a terminal and in the browser, with no JIT and no unsafe code · `Rust` `RISC-V` `v1.0`
 - **🧂 [Saltworks](https://github.com/Stiven-Gjekaj/saltworks)** · Nine mods for Claude Code: two dithered themes, guards for commits, pushes, and deletes, a style linter, and status bands · `TypeScript` `Claude Code`
-- **🗺️ [inkland](https://github.com/Stiven-Gjekaj/inkland)** · Deterministic remake of Azgaar's Fantasy Map Generator that makes print-ready SVG maps from a JSON config, with pinned places that never move · `Rust` `v2.0.0`
 
 ### Local AI & ML
 
@@ -84,9 +88,6 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 - **📚 [Soultale](https://readsoultale.com)** · Serialized saga in sixteen acts across 362 chapters, the universe behind Soulbound
 - **🎲 [Dice & Destiny](https://github.com/Stiven-Gjekaj/dice-and-destiny)** · Two-book tabletop RPG for fifth edition (2024): the free SRD 5.2 rules plus thousands of original classes, monsters, spells, and items · `5e` `SRD 5.2` `Edition 2`
 
-## ⏸️ On Hold
-
-- **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Fabric mod where mobs evolve from how you kill them, and you pick adaptations to counter them · `Java` `Minecraft` `v0.4-alpha`
 
 ## 🤝 Open Source Contributions
 
