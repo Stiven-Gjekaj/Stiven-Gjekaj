@@ -34,6 +34,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 
 - **🧬 [On the Origin of Spawns](https://github.com/Stiven-Gjekaj/OnTheOriginOfSpawns)** · Fabric mod where mobs evolve from how you kill them, and you pick adaptations to counter them · `Java` `Minecraft` `v0.4-alpha`
 - **🗺️ [inkland](https://github.com/Stiven-Gjekaj/inkland)** · Deterministic remake of Azgaar's Fantasy Map Generator that makes print-ready SVG maps from a JSON config, with pinned places that never move · `Rust` `v2.2.0`
+- **🔌 [IOloom](https://github.com/Stiven-Gjekaj/IOloom)** · Open-source tool that aims to link electrical schematics and PLC programs through one shared signal list · `PLC` `IEC 61131-3`
 
 ## 🛠️ Selected Work
 
