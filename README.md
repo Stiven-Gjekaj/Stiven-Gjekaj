@@ -96,7 +96,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 ## 🏢 Organizations
 
 - **🤝 [Code Charity](https://github.com/code-charity)** · Open-source collective building browser extensions and crowd-sourced web fixes for 850k+ users
-- **📄 [Paper Trail Development](https://github.com/PaperTrailDev)** · Indie game studio where my games live: iPhone 4S demakes, a Minecraft Beta client, a roguelike, and more
+- **📄 [Paper Trail Development](https://github.com/ThePaperTrailTeam)** · Indie game studio where my games live: iPhone 4S demakes, a Minecraft Beta client, a roguelike, and more
 
 ## ⚡ The Tech Stack
 
