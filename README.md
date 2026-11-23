@@ -36,11 +36,9 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 - **🗺️ [inkland](https://github.com/Stiven-Gjekaj/inkland)** · Deterministic remake of Azgaar's Fantasy Map Generator that makes print-ready SVG maps from a JSON config, with pinned places that never move · `Rust` `v2.2.1`
 - **🔌 [IOloom](https://github.com/Stiven-Gjekaj/IOloom)** · Open-source tool that aims to link electrical schematics and PLC programs through one shared signal list · `PLC` `IEC 61131-3`
 
-<details>
-<summary><h2>🛠️ Selected Work</h2></summary>
+## 🛠️ Selected Work
 
-<details>
-<summary><h3>Tools &amp; Systems</h3></summary>
+### Tools & Systems
 
 - **🔥 [Burnout](https://github.com/Stiven-Gjekaj/burnout)** · Writes and hash-verifies bootable USB drives on Windows, macOS, and Linux · `Rust` `CLI` `v3.4.1`
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
@@ -56,20 +54,14 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 - **🪵 [hartwood](https://github.com/Stiven-Gjekaj/Hartwood)** · RISC-V (RV64GC) emulator that boots Linux in a terminal and in the browser, with no JIT and no unsafe code · `Rust` `RISC-V` `v1.0`
 - **🧂 [Saltworks](https://github.com/Stiven-Gjekaj/saltworks)** · Nine mods for Claude Code: two dithered themes, guards for commits, pushes, and deletes, a style linter, and status bands · `TypeScript` `Claude Code`
 
-</details>
-
-<details>
-<summary><h3>Local AI &amp; ML</h3></summary>
+### Local AI & ML
 
 - **🎭 [mimikr](https://github.com/Stiven-Gjekaj/mimikr)** · Local chatbot that writes like someone you know, built from a chat transcript · `Python` `Local LLM` `v1.1`
 - **🎙️ [Stenos](https://github.com/Stiven-Gjekaj/stenos)** · Discord bot recording per-speaker voice transcripts with fully local Whisper inference · `Python` `Whisper` `v0.2.0.3`
 - **📗 [OpenBook](https://github.com/Stiven-Gjekaj/OpenBook)** · EPUB to audiobook with a voice per character · `Python` `ChatterBox`
 - **🧠 [RewardEnforcedLearning](https://github.com/Stiven-Gjekaj/RewardEnforcedLearning)** · Dependency-free RL workbench in the terminal, with 25 environments and 43 agents written from scratch · `Python` `RL`
 
-</details>
-
-<details>
-<summary><h3>Media &amp; Streaming</h3></summary>
+### Media & Streaming
 
 - **🎬 [ZettaStream](https://github.com/Stiven-Gjekaj/ZettaStream)** · Anime, movies, series, and live TV on Android TV and phones, from your Stremio addons and IPTV playlists · `Kotlin` `Android TV` `v1.7.0`
 - **📲 [ZettaStream for iOS](https://github.com/Stiven-Gjekaj/ZettaStreamIOS)** · iPhone and iPad version of ZettaStream that plays your Stremio addons and IPTV playlists · `Swift` `SwiftUI` `v1.1.0`
@@ -82,20 +74,12 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 - **🐕 [TuneHound](https://github.com/Stiven-Gjekaj/TuneHound)** · Paste a music link and it finds the song, downloads it, and tags the mp3 · `Python` `yt-dlp` `v1.1.1`
 - **🎥 [RecTunnelX](https://github.com/Stiven-Gjekaj/RecTunnelX)** · Streams a jailbroken iPhone 4S screen to OBS with hardware H.264 over USB or Wi-Fi · `Objective-C` `H.264` `v1.0`
 
-</details>
-
-</details>
-
-<details>
-<summary><h2>📖 Writing</h2></summary>
+## 📖 Writing
 
 - **📚 [Soultale](https://readsoultale.com)** · Serialized saga in sixteen acts across 362 chapters, the universe behind Soulbound
 - **🎲 [Dice & Destiny](https://github.com/Stiven-Gjekaj/dice-and-destiny)** · Two-book tabletop RPG for fifth edition (2024): the free SRD 5.2 rules plus thousands of original classes, monsters, spells, and items · `5e` `SRD 5.2` `Edition 2`
 
-</details>
-
-<details>
-<summary><h2>🤝 Open Source Contributions</h2></summary>
+## 🤝 Open Source Contributions
 
 - **🦀 [Tauri](https://github.com/tauri-apps/tauri)** · Framework for small, fast desktop and mobile apps with a web frontend · `Rust`
 - **📝 [Zed](https://github.com/zed-industries/zed)** · High-performance, multiplayer code editor written in Rust · `Rust`
@@ -109,18 +93,12 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 - **✏️ [noddle-draw](https://github.com/noddle-dev/noddle-draw)** · Account-free real-time collaborative diagram board with AI co-editor · `TypeScript` `React` `FastAPI`
 - **🌍 [DeltaGrid](https://github.com/AshayK003/DeltaGrid)** · Climate dashboard tracking Paris Agreement progress across 200+ countries · `Python` `Streamlit` `Plotly`
 
-</details>
-
-<details>
-<summary><h2>🏢 Organizations</h2></summary>
+## 🏢 Organizations
 
 - **🤝 [Code Charity](https://github.com/code-charity)** · Open-source collective building browser extensions and crowd-sourced web fixes for 850k+ users
 - **📄 [Paper Trail Development](https://github.com/PaperTrailDev)** · Indie game studio where my games live: iPhone 4S demakes, a Minecraft Beta client, a roguelike, and more
 
-</details>
-
-<details>
-<summary><h2>⚡ The Tech Stack</h2></summary>
+## ⚡ The Tech Stack
 
 <div align="center">
 
@@ -146,10 +124,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 
 </div>
 
-</details>
-
-<details>
-<summary><h2>📊 GitHub Stats</h2></summary>
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -162,8 +137,6 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 **[Browse all repositories ➜](https://github.com/Stiven-Gjekaj?tab=repositories)**
 
 </div>
-
-</details>
 
 <div align="center">
 
