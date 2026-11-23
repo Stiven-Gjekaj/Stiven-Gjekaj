@@ -104,23 +104,23 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 
 **Languages**
 
-<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, JavaScript, CSS, Kotlin, Java, Go, Bash, PowerShell" />
+<img src="assets/stack/languages.svg" alt="Rust, Python, C, Objective-C, Swift, TypeScript, Kotlin, Go" />
 
 **Apps & Web**
 
-<img src="assets/stack/apps.svg" alt="React, Vue, WebAssembly, Slint, SwiftUI, Jetpack Compose, FastAPI, Streamlit, Plotly" />
+<img src="assets/stack/apps.svg" alt="React, WebAssembly, Slint, SwiftUI, Jetpack Compose" />
 
 **Graphics & Media**
 
-<img src="assets/stack/media.svg" alt="OpenGL ES, wgpu, SDL, Godot, FFmpeg, VLC, Whisper" />
+<img src="assets/stack/media.svg" alt="FFmpeg, wgpu" />
 
 **Data & Infrastructure**
 
-<img src="assets/stack/data.svg" alt="SQLite, PostgreSQL, Prometheus, Docker, Gradle, Xcode, Theos, LLVM, GitHub Actions" />
+<img src="assets/stack/data.svg" alt="SQLite, PostgreSQL, Docker, Theos, GitHub Actions" />
 
 **Platforms**
 
-<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, RISC-V, Minecraft, Fabric" />
+<img src="assets/stack/platforms.svg" alt="Windows, Apple, Linux, Android, RISC-V" />
 
 </div>
 

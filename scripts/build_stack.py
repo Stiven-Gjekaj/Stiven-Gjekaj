@@ -28,12 +28,14 @@ SRC = Path(__file__).resolve().parent.parent / "assets" / "icons" / "src"  # ven
 # Each row: file name -> icons, left to right. Names are skillicons ids,
 # or one of the custom tiles defined further down.
 ROWS = {
-    "languages": ["rust", "python", "c", "objc", "swift", "ts", "js", "css", "kotlin", "java", "go", "bash", "powershell"],
-    "apps": ["react", "vue", "wasm", "slint", "swiftui", "compose", "fastapi", "streamlit", "plotly"],
-    "media": ["opengles", "wgpu", "sdl", "godot", "ffmpeg", "vlc", "whisper"],
-    "data": ["sqlite", "postgres", "prometheus", "docker", "gradle", "xcode", "theos", "llvm", "githubactions"],
-    "platforms": ["windows", "apple", "linux", "android", "riscv", "minecraft", "fabric"],
+    "languages": ["rust", "python", "c", "objc", "swift", "ts", "kotlin", "go"],
+    "apps": ["react", "wasm", "slint", "swiftui", "compose"],
+    "media": ["ffmpeg", "wgpu"],
+    "data": ["sqlite", "postgres", "docker", "theos", "githubactions"],
+    "platforms": ["windows", "apple", "linux", "android", "riscv"],
 }
+# Only tech that several projects use, or that a big project is built on, gets a
+# tile here. The other tiles stay defined below, so one can move back into a row.
 
 # The Engines & Tools rows of the Paper Trail Development profile README.
 # They are written to assets/papertrail/, and that README links to them here.
