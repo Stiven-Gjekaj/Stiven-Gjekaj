@@ -35,6 +35,15 @@ ROWS = {
     "platforms": ["windows", "apple", "linux", "android", "riscv", "minecraft", "fabric"],
 }
 
+# The Engines & Tools rows of the Paper Trail Development profile README.
+# They are written to assets/papertrail/, and that README links to them here.
+STUDIO_OUT = OUT.parent / "papertrail"
+STUDIO_ROWS = {
+    "engines": ["unity", "godot", "opengles", "sdl"],
+    "languages": ["cs", "c", "cpp", "objc", "rust", "lua"],
+    "tools": ["blender", "git", "trello", "xcode", "theos"],
+}
+
 DARK = "#242938"  # the dark tile colour skillicons uses
 
 
@@ -302,6 +311,7 @@ CUSTOM = {
     "llvm": llvm,
     "objc": objc,
     "slint": lambda: glyph_tile("slint", "#2379F4"),
+    "trello": lambda: glyph_tile("trello", "#0052CC"),
     "ffmpeg": lambda: glyph_tile("ffmpeg", "#007808"),
     "opengles": lambda: glyph_tile("opengl", "#5586A4", scale=9.6, dy=-46,
                                    extra=f'<path fill="#fff" d="{ES}"/>'),
@@ -405,6 +415,10 @@ if __name__ == "__main__":
     for key, names in ROWS.items():
         (OUT / f"{key}.svg").write_text(row(names))
         print(f"assets/stack/{key}.svg: {', '.join(names)}")
+    STUDIO_OUT.mkdir(parents=True, exist_ok=True)
+    for key, names in STUDIO_ROWS.items():
+        (STUDIO_OUT / f"{key}.svg").write_text(row(names))
+        print(f"assets/papertrail/{key}.svg: {', '.join(names)}")
     icons = OUT.parent / "icons"
     icons.mkdir(parents=True, exist_ok=True)
     for key, make in HEADER.items():
