@@ -94,6 +94,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 
 - **🦀 [Tauri](https://github.com/tauri-apps/tauri)** · Framework for small, fast desktop and mobile apps with a web frontend · `Rust`
 - **📝 [Zed](https://github.com/zed-industries/zed)** · High-performance, multiplayer code editor written in Rust · `Rust`
+- **🌐 [netboot.xyz](https://github.com/netbootxyz/netboot.xyz)** · Network boot menu that installs or runs dozens of operating systems over the internet · `iPXE`
 - **🐹 [go-git](https://github.com/go-git/go-git)** · Highly extensible Git implementation in pure Go · `Go`
 - **📨 [FastStream](https://github.com/ag2ai/faststream)** · Python framework for services on Kafka, RabbitMQ, NATS, and Redis message brokers · `Python`
 - **📺 [ImprovedTube](https://github.com/code-charity/youtube)** · YouTube extension with 350+ tweaks for playback, UI, and discovery · `JavaScript` `CSS`
