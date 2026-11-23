@@ -108,11 +108,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 
 **Apps & Web**
 
-<img src="assets/stack/apps.svg" alt="React, WebAssembly, Slint, SwiftUI, Jetpack Compose" />
-
-**Graphics & Media**
-
-<img src="assets/stack/media.svg" alt="FFmpeg, wgpu" />
+<img src="assets/stack/apps.svg" alt="React, WebAssembly, Slint, SwiftUI, Jetpack Compose, FFmpeg, wgpu" />
 
 **Data & Infrastructure**
 
