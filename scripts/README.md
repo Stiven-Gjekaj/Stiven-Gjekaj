@@ -31,7 +31,12 @@ python3 scripts/build_stack.py
 
 - Builds the tech stack rows in `assets/stack/` and the header icons in
   `assets/icons/`.
-- `ROWS` at the top of the script sets which icons each row holds.
+- `ROWS` at the top of the script sets which icons each row holds. A tile goes
+  in a row only when several projects use that tech, or a big project is built
+  on it.
+- Also builds the Engines & Tools rows of the Paper Trail Development README
+  in `assets/papertrail/`, from `STUDIO_ROWS`. That README links to them here,
+  so a rebuild updates it too.
 - Most icons come from skillicons.dev or Simple Icons. Official logos that
   neither has are kept in `assets/icons/src/`, with the source of each one in
   a comment next to the function that draws it.
