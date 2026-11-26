@@ -1,4 +1,5 @@
-"""Build the tech stack icon rows in assets/stack/.
+"""Build the tech stack icon rows in assets/stack/, and the Engines & Tools
+rows of the Paper Trail Development README in assets/papertrail/.
 
 Each row is one SVG in the style of skillicons.dev: 256px rounded tiles,
 shown at 48px, 300 units apart. Icons skillicons does not have are drawn
