@@ -44,7 +44,7 @@ I build the tools I wish existed: disk and file utilities, decompilers, emulator
 - **📡 [GoQuorra](https://github.com/Stiven-Gjekaj/GoQuorra)** · Background job queue with crash-safe leasing and at-least-once delivery · `Go` `gRPC` `PostgreSQL` `Prometheus`
 - **🔧 [BitSmith](https://github.com/Stiven-Gjekaj/bitsmith)** · Browser-only file tools with no upload, account, or server · `TypeScript` `React` `WebAssembly`
 - **🔤 [MiruScriptX](https://github.com/Stiven-Gjekaj/MiruScriptX)** · Minimalist, dynamically typed scripting language compiled to bytecode and run on a stack VM · `Rust` `Bytecode VM` `v2.1`
-- **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · The tools one OS has and the others lack, as one command on all three · `Rust` `CLI` `v1.0`
+- **🧰 [AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools)** · 35 tools that one OS has and the others lack, as one command on all three · `Rust` `CLI` `v1.0`
 - **🧷 [AllTheOddities](https://github.com/Stiven-Gjekaj/AllTheOddities)** · Sibling of AllTheTools: short, tested, safe-to-rerun scripts for niche fixes, like setting up SSH for GitHub on a new machine · `Shell` `PowerShell` `v2026.11.1`
 - **🎓 [Polytechnium](https://github.com/Stiven-Gjekaj/polytechnium)** · iPhone and iPad app for UPT students that reads the faculty timetable PDF and tracks grades, exams, and deadlines · `Swift` `SwiftUI` `v2.0.1`
 - **💽 [OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo)** · Disk health reader with a CLI and a desktop app that also tests, formats, and erases drives · `Rust` `Slint` `v1.1`
